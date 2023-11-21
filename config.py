@@ -2,7 +2,7 @@ from os import getenv
 
 from flask import Flask, session, jsonify
 from flask_admin import Admin
-from admin import ModelView
+from admin.admin import MyModelView, MyAdminIndexView
 from flask_babel import Babel
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
@@ -10,7 +10,6 @@ from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf.csrf import CSRFProtect, generate_csrf
 import logging
-
 
 user = getenv('VOTEBUDDY_USER')
 password = getenv('VOTEBUDDY_PWD')
@@ -36,13 +35,22 @@ logging.basicConfig()
 logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 
 babel = Babel(app)
-admin = Admin(app)
+admin = Admin(app, index_view=MyAdminIndexView())
 
-from models import User
+from models import Admin, Candidate, User, Vote
 
-admin.add_view(ModelView(User, db.session))
+admin.add_view(MyModelView(User, db.session))
+admin.add_view(MyModelView(Candidate, db.session))
+admin.add_view(MyModelView(Vote, db.session))
 
-from routes import index, login, register
+
+@login_manager.user_loader
+def load_user(user_id):
+    user = User.query.get(str(user_id))
+    if user:
+        return user
+    admin = Admin.query.get(str(user_id))
+    return admin
 
 
 @app.route('/token')
@@ -51,3 +59,7 @@ def token():
     session['csrf_token'] = csrf_token
     session.modified = True
     return jsonify({'X-CSRFToken': csrf_token})
+
+
+from routes import index, login, register
+from admin.routes import admin_login, admin_register

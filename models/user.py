@@ -2,12 +2,7 @@ from models.base_model import BaseModel
 from flask_bcrypt import Bcrypt
 from flask_login import UserMixin
 
-from config import db, login_manager
-
-
-@login_manager.user_loader
-def load_user(user_id):
-    return User.query.get(str(user_id))
+from config import db
 
 
 class User(BaseModel, db.Model, UserMixin):

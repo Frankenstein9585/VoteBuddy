@@ -19,3 +19,4 @@ def register():
         flash('Registration Successful. You can now Login', 'success')
         return redirect(url_for('index'))
     return render_template('register.html', form=form)
+
