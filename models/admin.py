@@ -2,7 +2,7 @@ from models.base_model import BaseModel
 from flask_bcrypt import Bcrypt
 from flask_login import UserMixin
 
-from app import db
+from config import db
 
 
 class Admin(BaseModel, db.Model, UserMixin):
@@ -15,4 +15,5 @@ class Admin(BaseModel, db.Model, UserMixin):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+
 

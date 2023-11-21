@@ -9,9 +9,8 @@ from datetime import datetime
 
 from sqlalchemy.orm.exc import NoResultFound
 
-from app import app, db
+from config import app, db
 from typing import Dict
-
 
 
 class BaseModel(db.Model):
@@ -117,4 +116,3 @@ class BaseModel(db.Model):
         Count the number of objects in a class
         """
         return cls.query.filter_by(**kwargs).count()
-

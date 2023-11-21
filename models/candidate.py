@@ -2,7 +2,7 @@ from models.base_model import BaseModel
 from flask_bcrypt import Bcrypt
 from flask_login import UserMixin
 
-from app import db
+from config import db
 
 
 class Candidate(BaseModel, db.Model):

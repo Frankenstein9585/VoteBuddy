@@ -2,7 +2,7 @@ from models.base_model import BaseModel
 from flask_bcrypt import Bcrypt
 from flask_login import UserMixin
 
-from app import db
+from config import db
 
 
 class Positions(BaseModel, db.Model):
@@ -13,4 +13,3 @@ class Positions(BaseModel, db.Model):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-

@@ -2,7 +2,7 @@ from models.base_model import BaseModel
 from flask_bcrypt import Bcrypt
 from flask_login import UserMixin
 
-from app import db
+from config import db
 
 
 class Vote(BaseModel, db.Model):
@@ -13,7 +13,7 @@ class Vote(BaseModel, db.Model):
     position_id = db.Column(db.String(126), db.ForeignKey('positions.id'), nullable=False)
     user = db.relationship('User', back_populates='votes')
     candidate = db.relationship('Candidate', back_populates='votes')
-    position = db.relationship('Position', back_populates='votes')
+    position = db.relationship('Positions', back_populates='votes')
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

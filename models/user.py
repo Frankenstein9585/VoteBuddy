@@ -2,7 +2,12 @@ from models.base_model import BaseModel
 from flask_bcrypt import Bcrypt
 from flask_login import UserMixin
 
-from app import db
+from config import db, login_manager
+
+
+@login_manager.user_loader
+def load_user(user_id):
+    return User.query.get(str(user_id))
 
 
 class User(BaseModel, db.Model, UserMixin):
@@ -16,4 +21,3 @@ class User(BaseModel, db.Model, UserMixin):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-
