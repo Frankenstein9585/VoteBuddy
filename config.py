@@ -2,7 +2,7 @@ from os import getenv
 
 from flask import Flask, session, jsonify
 from flask_admin import Admin
-from admin.admin import MyModelView, MyAdminIndexView
+from admin.admin import UserView, MyAdminIndexView, PositionsView, VoteView, CandidateView
 from flask_babel import Babel
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
@@ -37,11 +37,12 @@ logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 babel = Babel(app)
 admin = Admin(app, index_view=MyAdminIndexView())
 
-from models import Admin, Candidate, User, Vote
+from models import Admin, Candidate, User, Vote, Positions
 
-admin.add_view(MyModelView(User, db.session))
-admin.add_view(MyModelView(Candidate, db.session))
-admin.add_view(MyModelView(Vote, db.session))
+admin.add_view(UserView(User, db.session))
+admin.add_view(CandidateView(Candidate, db.session))
+admin.add_view(VoteView(Vote, db.session))
+admin.add_view(PositionsView(Positions, db.session))
 
 
 @login_manager.user_loader

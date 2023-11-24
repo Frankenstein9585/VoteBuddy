@@ -8,6 +8,7 @@ from config import db
 class Candidate(BaseModel, db.Model):
     """Candidate's Model"""
     __tablename__ = 'candidates'
+    position_id = db.Column(db.String(126), db.ForeignKey('positions.id'), nullable=False)
     matric_number = db.Column(db.String(15), nullable=False, unique=True)
     first_name = db.Column(db.String(126), nullable=False)
     last_name = db.Column(db.String(126), nullable=False)
@@ -15,6 +16,7 @@ class Candidate(BaseModel, db.Model):
     faculty = db.Column(db.String(126), nullable=True)
     department = db.Column(db.String(126), nullable=True)
     programme = db.Column(db.String(126), nullable=True)
+    position = db.relationship('Positions', back_populates='candidates')
     votes = db.relationship('Vote', back_populates='candidate')
 
     def __init__(self, *args, **kwargs):
