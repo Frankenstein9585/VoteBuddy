@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  margin-bottom: 0px;
+  background: #986601;
+  border-bottom: 1px solid #b4ccef;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+footer {
+  background: #986601;
+  margin-top: 10px;
+  top: 100%;
+  position: sticky;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  min-height: 100vh;
+}
+
+.btn {
+  font-family: ABeeZee, sans-serif;
+  background: #1d335f;
+  border-radius: 7px;
+}
+
