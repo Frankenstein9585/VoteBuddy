@@ -8,7 +8,7 @@ from config import db
 class Candidate(BaseModel, db.Model):
     """Candidate's Model"""
     __tablename__ = 'candidates'
-    position_id = db.Column(db.String(126), db.ForeignKey('positions.id'), nullable=False)
+    position_id = db.Column(db.String(36, collation='utf8_bin'), db.ForeignKey('positions.id'), nullable=False)
     matric_number = db.Column(db.String(15), nullable=False, unique=True)
     first_name = db.Column(db.String(126), nullable=False)
     last_name = db.Column(db.String(126), nullable=False)

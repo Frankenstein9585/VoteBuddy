@@ -47,10 +47,12 @@ admin.add_view(PositionsView(Positions, db.session))
 
 @login_manager.user_loader
 def load_user(user_id):
-    user = User.query.get(str(user_id))
+    user = User.query.get(user_id)
     if user:
+        print('user')
         return user
-    admin = Admin.query.get(str(user_id))
+    admin = Admin.query.get(user_id)
+    print('admin')
     return admin
 
 

@@ -10,6 +10,7 @@ from datetime import datetime
 from sqlalchemy.orm.exc import NoResultFound
 
 from config import app, db
+from sqlalchemy.dialects.postgresql import UUID
 from typing import Dict
 
 
@@ -21,19 +22,24 @@ class BaseModel(db.Model):
         created_at: Represents the time each class was created
         updated_at: Represents the time each class was updated
     """
-    __abstract__ = True
-    id = db.Column(db.String(126), primary_key=True, unique=True, nullable=False)
-    created_at = db.Column(db.DateTime, nullable=False)
-    updated_at = db.Column(db.DateTime, nullable=False)
+    # __abstract__ = True
+    # id = db.Column(db.String(126), primary_key=True, unique=True, nullable=False)
+    # created_at = db.Column(db.DateTime, nullable=False)
+    # updated_at = db.Column(db.DateTime, nullable=False)
+    #
+    # def __init__(self, *args, **kwargs):
+    #     """
+    #     Initialization method
+    #     """
+    #     super().__init__(*args, **kwargs)
+    #     self.id = str(uuid.uuid4())
+    #     self.created_at = datetime.now()
+    #     self.updated_at = datetime.now()
 
-    def __init__(self, *args, **kwargs):
-        """
-        Initialization method
-        """
-        super().__init__(*args, **kwargs)
-        self.id = str(uuid.uuid4())
-        self.created_at = datetime.now()
-        self.updated_at = datetime.now()
+    __abstract__ = True
+    id = db.Column(db.String(36, collation='utf8_bin'), primary_key=True, unique=True, nullable=False, default=str(uuid.uuid4()))
+    created_at = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)
 
     def save(self):
         """
