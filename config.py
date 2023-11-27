@@ -64,5 +64,5 @@ def token():
     return jsonify({'X-CSRFToken': csrf_token})
 
 
-from routes import index, login, register
+from routes import index, login, register, votes
 from admin.routes import admin_login, admin_register

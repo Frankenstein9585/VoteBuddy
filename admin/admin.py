@@ -41,8 +41,8 @@ class VoteView(ModelView):
 
 
 class CandidateView(ModelView):
-    column_exclude_list = ['created_at', 'updated_at']
     form_columns = ['matric_number', 'first_name', 'last_name', 'image', 'faculty', 'department', 'programme', 'position']
+    column_list = form_columns
     form_excluded_columns = ['created_at', 'updated_at']
 
     def is_accessible(self):
@@ -55,6 +55,7 @@ class CandidateView(ModelView):
 
 
 class PositionsView(ModelView):
+    column_list = ['title', 'candidates']
     column_exclude_list = ['created_at', 'updated_at']
     form_excluded_columns = ['created_at', 'updated_at']
 
