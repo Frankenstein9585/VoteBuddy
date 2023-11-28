@@ -40,7 +40,8 @@
     </nav>
     <div class="container-xl big-padding">
         <div class="row section-title"><h2 class="fs-4">Augustine University Faculty of Science Students' Association</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eleifend arcu et sem elementum faucibus. Vestibulum faucibus eleifend dolor, id luctus libero. Suspendisse commodo, orci eu mattis mattis, ante ligula porta tortor, ut scelerisque massa risus a quam.</p></div>
-        <form action="/cast-vote" method="POST">
+        <form action="/cast-vote" method="POST" enctype="multipart/form-data">
+        <input id="csrf_token" name="csrf_token" type="hidden" value="{{ csrf_token() }}">
         <div class="accordion" id="accordionExample">
         {% for position in positions %}
       <div class="accordion-item">
@@ -58,7 +59,7 @@
                     <div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/testimonial/member-01.jpg" alt="">
                         <h4 class="fs-3 fw-bold mt-3 mb-1"><strong>{{ candidate.first_name }} {{ candidate.last_name }}</strong></h4>
                         <h6 class="fs-6 fs-7" style="margin-bottom: 16px;margin-top: 16px;">{{ candidate.department }}: <span class="fw-bold text-primary"><br>{{ candidate.programme }}</span></h6>
-                        <input type="radio" class="btn-check" name="{{ position.title }}" value="{{ candidate.first_name}}{{ candidate.last_name }}" id="{{ candidate.first_name}}{{ candidate.last_name }}">
+                        <input type="radio" class="btn-check" name="{{ position.title }}" value="{{ candidate.id }}" id="{{ candidate.first_name}}{{ candidate.last_name }}">
                         <label class="btn btn-outline-dark fw-bolder px-4 ms-2 fs-8" for="{{ candidate.first_name}}{{ candidate.last_name }}">Vote</label>
                     </div>
                 </div>
@@ -69,7 +70,6 @@
       </div>
         {% endfor %}
     </div>
-        {{ csrf_token() }}
         <input class="btn btn-primary" type="submit">
         </form>
     </div>
