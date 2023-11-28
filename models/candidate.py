@@ -16,6 +16,7 @@ class Candidate(BaseModel, db.Model):
     faculty = db.Column(db.String(126), nullable=True)
     department = db.Column(db.String(126), nullable=True)
     programme = db.Column(db.String(126), nullable=True)
+    vote_count = db.Column(db.Integer, nullable=False, default=0)
     position = db.relationship('Positions', back_populates='candidates')
     votes = db.relationship('Vote', back_populates='candidate')
 
