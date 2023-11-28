@@ -40,7 +40,8 @@
     </nav>
     <div class="container-xl big-padding">
         <div class="row section-title"><h2 class="fs-4">Augustine University Faculty of Science Students' Association</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eleifend arcu et sem elementum faucibus. Vestibulum faucibus eleifend dolor, id luctus libero. Suspendisse commodo, orci eu mattis mattis, ante ligula porta tortor, ut scelerisque massa risus a quam.</p></div>
-    <div class="accordion" id="accordionExample">
+        <form action="/cast-vote" method="POST">
+        <div class="accordion" id="accordionExample">
         {% for position in positions %}
       <div class="accordion-item">
         <h2 class="accordion-header">
@@ -51,97 +52,26 @@
         <div id="collapse{{ loop.index }}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
               <div class="row">
-                  {% set candidates = Candidate.query.filter_by(position_id=position.id).all() %}
+                      {% set candidates = Candidate.query.filter_by(position_id=position.id).all() %}
                   {% for candidate in candidates %}
                 <div class="col-md-6 col-lg-4">
                     <div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/testimonial/member-01.jpg" alt="">
                         <h4 class="fs-3 fw-bold mt-3 mb-1"><strong>{{ candidate.first_name }} {{ candidate.last_name }}</strong></h4>
-                        <h6 class="fs-6 fs-7" style="margin-bottom: 16px;margin-top: 16px;">{{ candidate.department }}: <span class="fw-bold text-primary"><br>{{ candidate.programme }}</span></h6><button class="btn btn-danger fw-bolder px-4 ms-2 fs-8">Vote</button>
+                        <h6 class="fs-6 fs-7" style="margin-bottom: 16px;margin-top: 16px;">{{ candidate.department }}: <span class="fw-bold text-primary"><br>{{ candidate.programme }}</span></h6>
+                        <input type="radio" class="btn-check" name="{{ position.title }}" value="{{ candidate.first_name}}{{ candidate.last_name }}" id="{{ candidate.first_name}}{{ candidate.last_name }}">
+                        <label class="btn btn-outline-dark fw-bolder px-4 ms-2 fs-8" for="{{ candidate.first_name}}{{ candidate.last_name }}">Vote</label>
                     </div>
                 </div>
                   {% endfor %}
-{#                <div class="col-md-6 col-lg-4">#}
-{#                    <div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/testimonial/member-02.jpg" alt="">#}
-{#                        <h4 class="fs-3 fw-bold mt-3 mb-1"><strong>Arun Kumar</strong></h4>#}
-{#                        <h6 class="fs-6 fs-7" style="margin-bottom: 16px;margin-top: 16px;">Mathematical Sciences: <span class="fw-bold text-primary"><br>Computer Science</span></h6><button class="btn btn-danger fw-bolder px-4 ms-2 fs-8">Vote</button>#}
-{#                    </div>#}
-{#                </div>#}
-{#                <div class="col-md-6 col-lg-4">#}
-{#                    <div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/testimonial/member-03.jpg" alt="">#}
-{#                        <h4 class="fs-3 fw-bold mt-3 mb-1"><strong>Pream Nath</strong></h4>#}
-{#                        <h6 class="fs-6 fs-7" style="margin-bottom: 16px;margin-top: 16px;">Mathematical Sciences: <span class="fw-bold text-primary"><br>Software Engineering</span></h6><button class="btn btn-danger fw-bolder px-4 ms-2 fs-8">Vote</button>#}
-{#                    </div>#}
-{#                </div>#}
-{#                <div class="col-md-6 col-lg-4">#}
-{#                    <div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/testimonial/member-04.jpg" alt="">#}
-{#                        <h4 class="fs-3 fw-bold mt-3 mb-1"><strong>Reena Anath</strong></h4>#}
-{#                        <h6 class="fs-6 fs-7" style="margin-bottom: 16px;margin-top: 16px;">Chemical Sciences: <span class="fw-bold text-primary"><br>Biochemistry</span></h6><button class="btn btn-danger fw-bolder px-4 ms-2 fs-8">Vote</button>#}
-{#                    </div>#}
-{#                </div>#}
-{#                <div class="col-md-6 col-lg-4">#}
-{#                    <div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/testimonial/member-05.png" alt="">#}
-{#                        <h4 class="fs-3 fw-bold mt-3 mb-1"><strong>Allen Shory</strong></h4>#}
-{#                        <h6 class="fs-6 fs-7" style="margin-bottom: 16px;margin-top: 16px;">Chemical Sciences: <span class="fw-bold text-primary"><br>Biochemistry</span></h6><button class="btn btn-danger fw-bolder px-4 ms-2 fs-8">Vote</button>#}
-{#                    </div>#}
-{#                </div>#}
-{#                <div class="col-md-6 col-lg-4">#}
-{#                    <div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/testimonial/member-06.png" alt="">#}
-{#                        <h4 class="fs-3 fw-bold mt-3 mb-1"><strong>Vimal Kumar</strong></h4>#}
-{#                        <h6 class="fs-6 fs-7" style="margin-bottom: 16px;margin-top: 16px;">Chemical Sciences: <span class="fw-bold text-primary"><br>Biochemistry</span></h6><button class="btn btn-danger fw-bolder px-4 ms-2 fs-8">Vote</button>#}
-{#                    </div>#}
-{#                </div>#}
             </div>
           </div>
         </div>
       </div>
         {% endfor %}
-{#      <div class="accordion-item">#}
-{#        <h2 class="accordion-header">#}
-{#          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">#}
-{#            Accordion Item #2#}
-{#          </button>#}
-{#        </h2>#}
-{#        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">#}
-{#          <div class="accordion-body">#}
-{#            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.#}
-{#          </div>#}
-{#        </div>#}
-{#      </div>#}
-{#      <div class="accordion-item">#}
-{#        <h2 class="accordion-header">#}
-{#          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">#}
-{#            Accordion Item #3#}
-{#          </button>#}
-{#        </h2>#}
-{#        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">#}
-{#          <div class="accordion-body">#}
-{#            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.#}
-{#          </div>#}
-{#        </div>#}
-{#      </div>#}
     </div>
-
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="fs-6 fw-bold modal-title fs-5" id="exampleModalLabel">View Manifesto</h1><button class="btn-close" aria-label="Close" data-bs-dismiss="modal" type="button"></button>
-                </div>
-                <div class="modal-body">
-                    <ul class="molist">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu nibh et felis interdum accumsan. Pellentesque elit odio, interdum quis ante in, varius rhoncus orci.</li>
-                        <li>Etiam laoreet dapibus ante at mollis. Morbi lobortis ultricies risus, in faucibus est blandit eu. Nunc nec imperdiet elit.</li>
-                        <li>Praesent eget massa finibus, placerat tortor sed, pretium justo. Aenean et lectus accumsan, tincidunt metus sit amet, laoreet nunc.</li>
-                        <li>In et tincidunt est. Sed neque sapien, ultricies a orci et, fringilla egestas nibh. Sed luctus eros et erat suscipit fermentum.</li>
-                        <li>Cras blandit orci quis purus placerat tincidunt. Nunc ullamcorper iaculis nibh, sed dapibus dui lobortis nec.</li>
-                        <li>Sed tristique ante ac rhoncus facilisis. Maecenas hendrerit velit a interdum convallis. Vivamus tempus eu justo nec rutrum. Praesent sollicitudin interdum nisl, at sollicitudin justo interdum vel</li>
-                        <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc eget orci maximus, tincidunt nulla molestie, porta nisi. Integer fringilla lorem at lacinia iaculis. </li>
-                        <li>Maecenas tempus libero laoreet est facilisis, vitae iaculis dui eleifend. Proin eget magna vitae diam dictum interdum at at nulla. Fusce eu porttitor felis. Aenean pretium lacinia nunc ut convallis.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        {{ csrf_token() }}
+        <input class="btn btn-primary" type="submit">
+        </form>
     </div>
     <footer class="text-center py-4">
         <div class="container">
