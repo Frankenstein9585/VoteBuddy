@@ -12,7 +12,11 @@ class User(BaseModel, db.Model, UserMixin):
     first_name = db.Column(db.String(126), nullable=False)
     last_name = db.Column(db.String(126), nullable=False)
     password = db.Column(db.String(126), nullable=False)
+    has_voted = db.Column(db.Boolean, nullable=False, default=False)
     votes = db.relationship('Vote', back_populates='user')
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+
+    def __str__(self):
+        return self.first_name + ' ' + self.last_name

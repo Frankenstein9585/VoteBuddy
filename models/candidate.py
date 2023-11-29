@@ -16,9 +16,14 @@ class Candidate(BaseModel, db.Model):
     faculty = db.Column(db.String(126), nullable=True)
     department = db.Column(db.String(126), nullable=True)
     programme = db.Column(db.String(126), nullable=True)
-    vote_count = db.Column(db.Integer, nullable=False, default=0)
-    position = db.relationship('Positions', back_populates='candidates')
+
+    positions = db.relationship('CandidatePosition', back_populates='candidate')
     votes = db.relationship('Vote', back_populates='candidate')
+
+    # candidate_position_relationship = db.Table('candidate_position_relationship',
+    #                                            db.Column('candidate_id', db.String(36, collation='utf8_bin'), db.ForeignKey('candidates.id')),
+    #                                            db.Column('position_id', db.String(36, collation='utf8_bin'), db.ForeignKey('positions.id'))
+    #                                            )
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

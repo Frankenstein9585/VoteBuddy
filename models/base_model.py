@@ -41,6 +41,15 @@ class BaseModel(db.Model):
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)
 
+    def __init__(self, *args, **kwargs):
+        """
+        Initialization method
+        """
+        super().__init__(*args, **kwargs)
+        self.id = str(uuid.uuid4())
+        self.created_at = datetime.now()
+        self.updated_at = datetime.now()
+
     def save(self):
         """
         Saves the current session into the database
