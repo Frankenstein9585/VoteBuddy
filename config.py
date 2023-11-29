@@ -2,7 +2,7 @@ from os import getenv
 
 from flask import Flask, session, jsonify
 from flask_admin import Admin
-from admin.admin import UserView, MyAdminIndexView, PositionsView, VoteView, CandidateView
+from admin.admin import UserView, MyAdminIndexView, PositionsView, VoteView, CandidateView, CandidateVotesView
 from flask_babel import Babel
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
@@ -10,6 +10,8 @@ from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf.csrf import CSRFProtect, generate_csrf
 import logging
+
+
 
 user = getenv('VOTEBUDDY_USER')
 password = getenv('VOTEBUDDY_PWD')
@@ -37,13 +39,13 @@ logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 babel = Babel(app)
 admin = Admin(app, index_view=MyAdminIndexView())
 
-from models import Admin, Candidate, User, Vote, Positions
+from models import Admin, Candidate, User, Vote, Positions, CandidatePositionAssociation
 
 admin.add_view(UserView(User, db.session))
 admin.add_view(CandidateView(Candidate, db.session))
 admin.add_view(VoteView(Vote, db.session))
 admin.add_view(PositionsView(Positions, db.session))
-
+admin.add_view(CandidateVotesView(CandidatePositionAssociation, db.session))
 
 @login_manager.user_loader
 def load_user(user_id):
