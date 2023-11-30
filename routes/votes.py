@@ -10,8 +10,6 @@ from models import Positions, Candidate, CandidatePositionAssociation
 def votes():
     candidate_position = []
     positions = Positions.query.all()
-    # for position in positions:
-    #     candidate_position.append()
     return render_template('vote.html', positions=positions, Candidate=Candidate,
                            CandidatePositionAssociation=CandidatePositionAssociation)
 
