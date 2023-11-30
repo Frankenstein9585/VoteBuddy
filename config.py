@@ -41,11 +41,11 @@ admin = Admin(app, index_view=MyAdminIndexView())
 
 from models import Admin, Candidate, User, Vote, Positions, CandidatePositionAssociation
 
-admin.add_view(UserView(User, db.session))
-admin.add_view(CandidateView(Candidate, db.session))
-admin.add_view(VoteView(Vote, db.session))
-admin.add_view(PositionsView(Positions, db.session))
-admin.add_view(CandidateVotesView(CandidatePositionAssociation, db.session))
+# admin.add_view(UserView(User, db.session))
+# admin.add_view(CandidateView(Candidate, db.session))
+# admin.add_view(VoteView(Vote, db.session))
+# admin.add_view(PositionsView(Positions, db.session))
+# admin.add_view(CandidateVotesView(CandidatePositionAssociation, db.session))
 
 @login_manager.user_loader
 def load_user(user_id):

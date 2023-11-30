@@ -70,9 +70,11 @@ class PositionsView(ModelView):
 
 
 class CandidateVotesView(ModelView):
-    # column_list = ['title', 'candidates']
-    # column_exclude_list = ['created_at', 'updated_at']
-    # form_excluded_columns = ['created_at', 'updated_at']
+    column_list = ['candidate_id', 'position_id', 'vote_count']
+    form_excluded_columns = ['created_at', 'updated_at']
+    can_create = False
+    can_edit = False
+    can_delete = False
 
     def is_accessible(self):
         from models import Admin
