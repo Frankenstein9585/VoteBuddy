@@ -1,8 +1,9 @@
-from flask_login import current_user, login_user, logout_user
+from flask_login import current_user, login_user, logout_user, login_required
 from config import app, bcrypt
 from flask import flash, render_template, redirect, url_for, request
 from admin.forms import AdminRegisterForm, AdminLoginForm
 from models.admin import Admin
+from models import Candidate, CandidatePositionAssociation, Positions
 
 
 @app.route('/admin/register', methods=['GET', 'POST'])
@@ -35,6 +36,14 @@ def admin_login():
         else:
             flash('Login Unsuccessful. Check your details and try again', 'danger')
     return render_template('admin/login_admin.html', form=form)
+
+
+@app.route('/admin/analytics')
+@login_required
+def result():
+    positions = Positions.query.all()
+    return render_template('admin/analytics.html', positions=positions, Candidate=Candidate,
+                           CandidatePositionAssociation=CandidatePositionAssociation)
 
 
 @app.route('/admin/logout')
