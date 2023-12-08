@@ -58,3 +58,8 @@ p {
   border-width: 1px;
   border-color: #e2e5ea;
 }
+
+#video {
+  width: 100%;
+  height: auto;
+}

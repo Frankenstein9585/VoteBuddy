@@ -6,3 +6,8 @@
 /*    cursor: pointer;*/
 /*    !*z-index: 2;*!*/
 /*}*/
+
+.btn-primary {
+    background-color: #1d335f;
+    border-width: 0;
+}

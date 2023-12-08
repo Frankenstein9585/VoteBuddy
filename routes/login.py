@@ -23,6 +23,11 @@ def login():
     return render_template('login.html', form=form)
 
 
+@app.route('/test', methods=['GET', 'POST'])
+def test():
+    return render_template('camera_again.html')
+
+
 @app.route('/logout')
 def logout():
     logout_user()
