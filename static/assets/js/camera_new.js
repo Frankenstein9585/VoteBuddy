@@ -44,11 +44,10 @@ retake.addEventListener('click', () => {
 
 registerForm.addEventListener('submit', (event) => {
     event.preventDefault();
-
-    const formData = new FormData();
+    const formData = new FormData(registerForm);
     formData.append('capturedImageData', canvas.toDataURL('image/jpg'));
 
-    fetch('/register', {
+    fetch('/submit', {
         method: 'POST',
         body: formData
     })
