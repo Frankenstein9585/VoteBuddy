@@ -7,6 +7,7 @@ from config import app, bcrypt
 from flask import flash, render_template, redirect, request, url_for
 from forms.register import RegisterForm
 from models.user import User
+from gcloud_ocr import detect_text
 from PIL import Image
 
 
@@ -14,11 +15,15 @@ from PIL import Image
 def register():
     form = RegisterForm()
     if form.validate_on_submit():
-        for key, value in form.data.items():
-            print(f'{key}: {value}')
+        # for key, value in form.data.items():
+        #     print(f'{key}: {value}')
         image_bytes = base64.b64decode(form.image_byte_string.data.split(',')[1])
         img = Image.open(io.BytesIO(image_bytes))
         img.save(f"{request.form.get('matric_number')}.png", format='PNG')
+        student_info = detect_text(f'{form.matric_number.data}.png')
+        print(student_info)
+        if form.matric_number.data in student_info:
+            print('YES')
         return 'Done'
     return render_template('register.html', form=form)
 
