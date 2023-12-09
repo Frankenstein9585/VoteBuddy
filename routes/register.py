@@ -13,6 +13,13 @@ from PIL import Image
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     form = RegisterForm()
+    if form.validate_on_submit():
+        for key, value in form.data.items():
+            print(f'{key}: {value}')
+        image_bytes = base64.b64decode(form.image_byte_string.data.split(',')[1])
+        img = Image.open(io.BytesIO(image_bytes))
+        img.save(f"{request.form.get('matric_number')}.png", format='PNG')
+        return 'Done'
     return render_template('register.html', form=form)
 
 

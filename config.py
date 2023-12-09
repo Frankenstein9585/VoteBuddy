@@ -1,5 +1,5 @@
 from os import getenv
-
+import secrets
 from flask import Flask, session, jsonify
 from flask_admin import Admin
 from admin.admin import UserView, MyAdminIndexView, PositionsView, VoteView, CandidateView, CandidateVotesView
@@ -48,6 +48,7 @@ admin.add_view(CandidateVotesView(CandidatePositionAssociation, db.session))
 
 @login_manager.user_loader
 def load_user(user_id):
+    from models import User, Admin
     user = User.query.get(user_id)
     if user:
         print('user')
@@ -63,6 +64,20 @@ def token():
     session['csrf_token'] = csrf_token
     session.modified = True
     return jsonify({'X-CSRFToken': csrf_token})
+
+
+def populate_users():
+    import csv
+    from models import User
+    csv_file_path = 'FACUS.csv'
+    with app.app_context():
+        with open(csv_file_path, 'r') as csv_file:
+            csv_reader = csv.DictReader(csv_file)
+            for row in csv_reader:
+                new_user = User(**row)
+                new_user.password = secrets.token_hex(8)
+                db.session.add(new_user)
+            db.session.commit()
 
 
 from routes import index, login, register, votes

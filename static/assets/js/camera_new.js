@@ -4,7 +4,7 @@ let video = document.getElementById('video');
 let capturedImage= document.getElementById('capturedImage');
 let capture = document.getElementById('snap');
 let retake = document.getElementById('retake');
-let registerForm = document.getElementById('registerForm')
+let image_byte_string = document.getElementById('image_byte_string')
 
 if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia()) {
 navigator.mediaDevices.getUserMedia({video: {facingMode: 'environment'}})
@@ -24,6 +24,7 @@ capture.addEventListener('click', () => {
     canvas.style.display ='none'
 
     capturedImage.src = canvas.toDataURL('image/jpg');
+    image_byte_string.value = capturedImage.src;
     capturedImage.style.display = 'block';
     capturedImage.style.width = '100%';
     capturedImage.style.height = 'auto';
@@ -42,17 +43,4 @@ retake.addEventListener('click', () => {
     retake.style.display = 'none';
 });
 
-registerForm.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const formData = new FormData(registerForm);
-    formData.append('capturedImageData', canvas.toDataURL('image/jpg'));
-
-    fetch('/submit', {
-        method: 'POST',
-        body: formData
-    })
-        .then(response => response.text())
-        .then(data => console.log(data))
-        .catch(error => console.error('Error: ', error));
-})
 

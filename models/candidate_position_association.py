@@ -1,5 +1,4 @@
-from config import db
-from models.base_model import BaseModel
+from models.base_model import BaseModel, db
 
 
 class CandidatePositionAssociation(BaseModel, db.Model):

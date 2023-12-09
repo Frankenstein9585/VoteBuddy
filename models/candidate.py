@@ -1,8 +1,8 @@
-from models.base_model import BaseModel
+from models.base_model import BaseModel, db
 from flask_bcrypt import Bcrypt
 from flask_login import UserMixin
 
-from config import db
+
 
 
 class Candidate(BaseModel, db.Model):
