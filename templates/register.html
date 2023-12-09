@@ -33,6 +33,15 @@
             </div>
         </div>
     </nav>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+           {% if messages %}
+               {% for category, message in messages %}
+                   <div class="alert alert-{{ category }} mb-0">
+                       {{ message }}
+                   </div>
+               {% endfor %}
+           {% endif %}
+       {% endwith %}
     <div class="container form-container">
         <div class="content" style="margin: 50px 0px;">
             <div class="text-and-supporting-text">
@@ -54,14 +63,6 @@
                     {% else %}
                         {{ form.matric_number(class="form-control fc", placeholder="AU20XX00XXX") }}
                     {% endif %}
-                    </div>
-                    <div class="input-with-label">
-                        {{ form.first_name.label(class="form_label") }}
-                        {{ form.first_name(class="form-control fc", placeholder="John") }}
-                    </div>
-                    <div class="input-with-label">
-                        {{ form.last_name.label(class="form_label") }}
-                        {{ form.last_name(class="form-control fc", placeholder="Doe") }}
                     </div>
                     <div class="input-with-label">
                         <label class="form-label">Password*</label>
