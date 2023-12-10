@@ -31,6 +31,3 @@ def detect_text(path):
         return texts[0].description
     except:
         return None
-
-
-print(detect_text('AU202000345.png'))

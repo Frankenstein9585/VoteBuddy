@@ -16,5 +16,5 @@ class RegisterForm(FlaskForm):
 
     def validate_matric_number(self, matric_number):
         user = User.query.filter_by(matric_number=matric_number.data).first()
-        if user.has_registered:
+        if user and user.has_registered:
             raise ValidationError('This matriculation number has already been registered')

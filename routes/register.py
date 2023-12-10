@@ -18,8 +18,8 @@ def register():
         return redirect(url_for('index'))
     form = RegisterForm()
     if form.validate_on_submit():
-        for key, value in form.data.items():
-            print(f'{key}: {value}')
+        # for key, value in form.data.items():
+        #     print(f'{key}: {value}')
         if not form.image_byte_string:
             flash('Please upload valid Student ID Card', 'danger')
         image_bytes = base64.b64decode(form.image_byte_string.data.split(',')[1])
@@ -32,8 +32,6 @@ def register():
             user.save()
             flash('Registration Successful. You can now login', 'success')
             return redirect(url_for('login'))
-        if user is False:
-            flash('Please upload valid Student ID Card', 'danger')
         else:
-            flash('Please check your ID Card image and try again', 'danger')
+            flash('Please upload valid Student ID Card', 'danger')
     return render_template('register.html', form=form)

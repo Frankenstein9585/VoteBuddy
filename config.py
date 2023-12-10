@@ -19,7 +19,7 @@ host = getenv('VOTEBUDDY_HOST')
 
 app = Flask(__name__)
 
-app.config['DEBUG'] = os.environ.get('FLASK_DEBUG')
+app.debug = False
 
 app.config['SECRET_KEY'] = '2418a51bfc930c04eac5d264b84806c6'
 app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql+mysqldb://{user}:{password}@{host}/{database}'
