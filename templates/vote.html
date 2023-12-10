@@ -55,7 +55,9 @@
            {% endif %}
        {% endwith %}
     <div class="container-xl big-padding">
-        <div class="row section-title"><h2 class="fs-4">Augustine University Faculty of Science Students' Association</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eleifend arcu et sem elementum faucibus. Vestibulum faucibus eleifend dolor, id luctus libero. Suspendisse commodo, orci eu mattis mattis, ante ligula porta tortor, ut scelerisque massa risus a quam.</p></div>
+        <div class="row section-title"><h2 class="fs-4">Augustine University Faculty of Science Students' Association</h2>
+            <p style="font-size: 20px">Cast Your Votes</p>
+        </div>
         <form action="/cast-vote" method="POST" enctype="multipart/form-data">
         <input id="csrf_token" name="csrf_token" type="hidden" value="{{ csrf_token() }}">
         <div class="accordion" id="accordionExample">
@@ -87,7 +89,7 @@
       </div>
         {% endfor %}
     </div>
-        <input class="btn btn-primary" type="submit">
+        <input class="btn btn-primary mt-4" type="submit">
         </form>
     </div>
     <footer class="text-center py-4">

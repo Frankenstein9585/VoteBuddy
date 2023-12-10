@@ -11,7 +11,7 @@ class RegisterForm(FlaskForm):
     matric_number = StringField('Matriculation Number*', validators=[DataRequired(), Length(max=15)])
     password = PasswordField('Password', validators=[DataRequired(), Length(min=8)])
     confirm_password = PasswordField('Confirm Password', validators=[DataRequired(), EqualTo('password')])
-    image_byte_string = HiddenField('Image Byte String', validators=[DataRequired()])
+    image_byte_string = HiddenField('Verify ID: Please take a clear picture of your ID Card', validators=[DataRequired()])
     submit = SubmitField('Register')
 
     def validate_matric_number(self, matric_number):

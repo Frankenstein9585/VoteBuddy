@@ -75,12 +75,13 @@
                         {{ form.confirm_password(class="form-control fc", placeholder="Re-enter your password") }}
                     </div>
 
+                    {{ form.image_byte_string.label }}
                     <div id="photo">
                         <video id="video"></video>
                         <img id="capturedImage" style="display:none;">
                         <div id="buttons">
-                            <button class="btn btn-primary" type="button" id="snap">Take Photo</button>
-                            <button class="btn btn-primary" type="button" id="retake" style="display:none;">Retake Photo</button>
+                            <button class="btn btn-primary camera-btn" type="button" id="snap">Take Photo</button>
+                            <button class="btn btn-primary camera-btn" type="button" id="retake" style="display:none;">Retake Photo</button>
                         </div>
                         <canvas id="canvas" style="display: none;"></canvas>
                     </div>

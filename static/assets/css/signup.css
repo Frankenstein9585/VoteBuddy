@@ -63,3 +63,7 @@ p {
   width: 100%;
   height: auto;
 }
+
+.camera-btn {
+  margin-bottom: 10px;
+}
