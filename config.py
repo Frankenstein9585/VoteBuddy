@@ -10,10 +10,8 @@ from flask_login import LoginManager
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf.csrf import CSRFProtect, generate_csrf
-from dotenv import load_dotenv
 import logging
 
-load_dotenv()
 user = getenv('VOTEBUDDY_USER')
 password = getenv('VOTEBUDDY_PWD')
 database = getenv('VOTEBUDDY_DB')
@@ -24,9 +22,9 @@ app = Flask(__name__)
 app.config['DEBUG'] = os.environ.get('FLASK_DEBUG')
 
 app.config['SECRET_KEY'] = '2418a51bfc930c04eac5d264b84806c6'
-# app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql+mysqldb://{user}:{password}@{host}/{database}'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://vote_buddy:vote_buddy_123@/Votebuddy?unix_socket=/cloudsql' \
-                                        '/votebuddy-407411:europe-west1:vote-buddy'
+app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql+mysqldb://{user}:{password}@{host}/{database}'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://vote_buddy:vote_buddy_123@/Votebuddy?unix_socket=/cloudsql' \
+  #                                      '/votebuddy-407411:europe-west1:vote-buddy'
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
