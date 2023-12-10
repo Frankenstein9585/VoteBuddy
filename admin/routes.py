@@ -7,11 +7,14 @@ from models import Candidate, CandidatePositionAssociation, Positions
 
 
 @app.route('/admin/register', methods=['GET', 'POST'])
+@login_required
 def admin_register():
     if current_user.is_authenticated:
         return redirect((url_for('admin.index')))
     form = AdminRegisterForm()
     if form.validate_on_submit():
+        if not isinstance(current_user, Admin):
+            return 'Error'
         hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
         admin = Admin(first_name=form.first_name.data, last_name=form.last_name.data, username=form.username.data,
                       password=hashed_password)
@@ -41,6 +44,8 @@ def admin_login():
 @app.route('/admin/analytics')
 @login_required
 def result():
+    if not isinstance(current_user, Admin):
+        return 'You should not be here'
     positions = Positions.query.all()
     return render_template('admin/analytics.html', positions=positions, Candidate=Candidate,
                            CandidatePositionAssociation=CandidatePositionAssociation)
@@ -48,5 +53,7 @@ def result():
 
 @app.route('/admin/logout')
 def admin_logout():
+    if not isinstance(current_user, Admin):
+        return 'You should not be here'
     logout_user()
     return redirect(url_for('admin_login'))
