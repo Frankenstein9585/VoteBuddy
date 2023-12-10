@@ -13,7 +13,7 @@ def votes():
         return render_template('vote.html', positions=positions, Candidate=Candidate,
                                CandidatePositionAssociation=CandidatePositionAssociation)
     else:
-        return 'You have already voted'
+        return render_template('thankyou.html', text='You have already voted!')
 
 
 @app.route('/cast-vote', methods=['GET', 'POST'])
@@ -21,9 +21,9 @@ def votes():
 def cast_vote():
     if not current_user.has_voted:
         if request.method == 'POST':
-            votes = request.form.to_dict()
-            votes.pop('csrf_token')
-            for vote in votes.values():
+            votes_dict = request.form.to_dict()
+            votes_dict.pop('csrf_token')
+            for vote in votes_dict.values():
                 candidate_position = CandidatePositionAssociation.find_obj_by(id=vote)
                 candidate_position.vote_count += 1
                 candidate = Candidate.find_obj_by(id=candidate_position.candidate_id)
@@ -33,6 +33,7 @@ def cast_vote():
                 db.session.commit()
             current_user.has_voted = True
             db.session.commit()
-        return 'Thank you for voting!'
+        text = 'Thank you for voting!'
     else:
-        return 'You have already voted'
+        text = 'You have already voted'
+    return render_template('thankyou.html', text=text)
