@@ -19,7 +19,7 @@
             block: 'start',
             inline: 'start' // This ensures the left edge of the element is aligned with the left edge of the visible area of the scrollable ancestor
           });
-        }, 300); // Adjust the delay as needed
+        }, 500); // Adjust the delay as needed
       }
     });
   });
