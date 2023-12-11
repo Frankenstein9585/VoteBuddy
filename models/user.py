@@ -24,4 +24,4 @@ class User(BaseModel, db.Model, UserMixin):
         super().__init__(*args, **kwargs)
 
     def __str__(self):
-        return self.first_name + ' ' + self.last_name
+        return self.name

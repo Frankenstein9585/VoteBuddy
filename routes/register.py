@@ -33,5 +33,5 @@ def register():
             flash('Registration Successful. You can now login', 'success')
             return redirect(url_for('login'))
         else:
-            flash('Please upload valid Student ID Card', 'danger')
+            flash('Please Upload Valid Student ID Card or Check your Matriculation Number', 'danger')
     return render_template('register.html', form=form)
