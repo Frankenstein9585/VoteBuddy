@@ -3,7 +3,7 @@ from config import app, bcrypt
 from flask import flash, render_template, redirect, url_for, request
 from admin.forms import AdminRegisterForm, AdminLoginForm
 from models.admin import Admin
-from models import Candidate, CandidatePositionAssociation, Positions
+from models import Candidate, CandidatePositionAssociation, Positions, User
 
 
 @app.route('/admin/register', methods=['GET', 'POST'])
@@ -46,9 +46,12 @@ def admin_login():
 def result():
     if not isinstance(current_user, Admin):
         return 'You should not be here'
+    users_voted_count = len(User.query.filter_by(has_voted=True))
+
     positions = Positions.query.all()
     return render_template('admin/analytics.html', positions=positions, Candidate=Candidate,
-                           CandidatePositionAssociation=CandidatePositionAssociation)
+                           CandidatePositionAssociation=CandidatePositionAssociation,
+                           users_voted_count=users_voted_count)
 
 
 @app.route('/admin/logout')
