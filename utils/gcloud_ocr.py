@@ -1,3 +1,5 @@
+import os
+
 from google.cloud import vision
 
 
@@ -27,7 +29,7 @@ def detect_text(path):
                 "{}\nFor more info on error messages, check: "
                 "https://cloud.google.com/apis/design/errors".format(response.error.message)
             )
-
+        os.remove(f'{path}')
         return texts[0].description
     except:
         return None
