@@ -1,7 +1,8 @@
 def check_id(img_path, matric_number):
     from config import User
-    from gcloud_ocr import detect_text
+    from utils.gcloud_ocr import detect_text
     student_info = detect_text(img_path)
+    print(student_info)
     if not student_info:
         return None
     if 'Student Identification Card' in student_info:
