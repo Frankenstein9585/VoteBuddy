@@ -5,8 +5,9 @@ def check_id(img_path, matric_number):
     print(student_info)
     if not student_info:
         return None
-    if 'Student Identification Card' in student_info:
-        if matric_number in student_info:
+    if 'Student Identification Card'.casefold() in student_info:
+        print('SIC found')
+        if matric_number.casefold() in student_info:
             user = User.find_obj_by(matric_number=matric_number)
             if user:
                 return user

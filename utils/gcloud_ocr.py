@@ -30,6 +30,6 @@ def detect_text(path):
                 "https://cloud.google.com/apis/design/errors".format(response.error.message)
             )
         os.remove(f'{path}')
-        return texts[0].description
+        return texts[0].description.casefold()
     except:
         return None
