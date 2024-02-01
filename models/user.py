@@ -15,9 +15,9 @@ class User(BaseModel, db.Model, UserMixin):
     level = db.Column(db.String(50), nullable=False)
     faculty = db.Column(db.String(100), nullable=False)
     department = db.Column(db.String(100), nullable=False)
-    password = db.Column(db.String(126), nullable=False)
+    # password = db.Column(db.String(126), nullable=False)
     has_voted = db.Column(db.Boolean, nullable=False, default=False)
-    has_registered = db.Column(db.Boolean, nullable=False, default=False)
+    # has_registered = db.Column(db.Boolean, nullable=False, default=False)
     votes = db.relationship('Vote', back_populates='user')
 
     def __init__(self, *args, **kwargs):
