@@ -88,29 +88,6 @@
         </div>
     </div>
 </div>
-    <div id="modal-2" class="modal fade" role="dialog" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title">Guidelines</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body">
-                <ul>
-                    <li>On the Registration Page, take a clear picture of your Student ID Card.</li>
-                    <li>If you get a prompt from the browser asking for camera permissions, please click "Allow".</li>
-                    <li>For better results, ensure the card is on a flat surface and not tilted at an angle.</li>
-                    <li>Click "Take Picture".</li>
-                    <li>On the Votes Page, click &quot;Vote&quot; on the candidate of your choice for each position.</li>
-                    <li>A darkened button indicates that your choice has been locked in for that position.</li>
-                    <li>When all votes have been made, click &quot;Submit&quot;.</li>
-                </ul>
-            </div>
-            <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button>
-                <a href="{{ url_for('register') }}"><button class="btn btn-primary" type="button">Understood, Register</button></a>
-            </div>
-        </div>
-    </div>
-</div>
     <div class="content-wrapper">
         <div id="intro-container">
             <div class="d-flex justify-content-center align-items-center"><img src="../static/assets/img/aui_logo.png" width="219" height="191"></div>
@@ -122,7 +99,7 @@
                 {% else %}
                     <h1 style="margin: 4px;margin-right: 0;margin-left: 0;">Welcome to VoteBuddy</h1>
                     <h5 style="margin: 11px;margin-right: 0;margin-left: 0;">Augustine University's e-Voting Platform</h5>
-                    <div class="text-center"><button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal-2" style="background: rgb(2,36,85);padding: 9px 18px;font-size: 18px;margin-top: 5px;">Get Started</button></div>
+                    <div class="text-center"><a href="{{ url_for('login') }}"><button class="btn btn-primary" type="button" style="background: rgb(2,36,85);padding: 9px 18px;font-size: 18px;margin-top: 5px;">Get Started</button></a></div>
                 {% endif %}
             </div>
         </div>
