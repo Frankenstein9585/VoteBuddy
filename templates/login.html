@@ -66,19 +66,6 @@
                             {{ form.matric_number(class="form-control fc", placeholder="AU20XX00XXX") }}
                         {% endif %}
                     </div>
-                    <div class="input-with-label">
-                        <label class="form-label">Password</label>
-                        {% if form.password.errors %}
-                            {{ form.password(class="form-control fc is-invalid") }}
-                            <div class="invalid-feedback">
-                                {% for error in form.password.errors %}
-                                    <span>{{ error }}</span>
-                                {% endfor %}
-                            </div>
-                        {% else %}
-                            {{ form.password(class="form-control fc", placeholder="Enter Password") }}
-                        {% endif %}
-                    </div>
                     <div class="actions">
                         {{ form.submit(class="btn btn-primary submit") }}
                         </div>
