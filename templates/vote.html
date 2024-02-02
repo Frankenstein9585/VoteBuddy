@@ -38,7 +38,7 @@
                     {% if current_user.is_authenticated %}
                         <a href="{{ url_for('logout') }}"><button class="btn btn-primary" type="button" style="margin-right: 5px;font-family: ABeeZee, sans-serif;background: rgb(2,36,85);">Logout</button></a>
                     {% else %}
-                        <a href="{{ url_for('register') }}"><button class="btn btn-primary" type="button" style="margin-right: 5px;font-family: ABeeZee, sans-serif;background: rgb(2,36,85);">Register</button></a>
+{#                        <a href="{{ url_for('register') }}"><button class="btn btn-primary" type="button" style="margin-right: 5px;font-family: ABeeZee, sans-serif;background: rgb(2,36,85);">Register</button></a>#}
                         <a href="{{ url_for('login') }}"><button class="btn btn-primary" type="button" style="margin-right: 5px;font-family: ABeeZee, sans-serif;background: rgb(2,36,85);">Login</button></a>
                     {% endif %}
                 </div>
@@ -75,9 +75,10 @@
                   {% for candidate_position in candidate_positions %}
                       {% set candidate = Candidate.find_obj_by(id=candidate_position.candidate_id) %}
                 <div class="col-md-6 col-lg-4">
-			<div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/candidate_img/{{ candidate.first_name  }}.jpg" alt="">
+			<div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5">
+{#                <img class="rounded-pill shadow-md p-2" src="../static/assets/img/candidate_img/{{ candidate.first_name  }}.jpg" alt="">#}
                         <h4 class="fs-3 fw-bold mt-3 mb-1"><strong>{{ candidate.first_name }} {{ candidate.last_name }}</strong></h4>
-                        <h6 class="fs-6 fs-7" style="margin-bottom: 16px;margin-top: 16px;">{{ candidate.department }}: <span class="fw-bold text-primary"><br>{{ candidate.programme }}</span></h6>
+{#                        <h6 class="fs-6 fs-7" style="margin-bottom: 16px;margin-top: 16px;">{{ candidate.department }}: <span class="fw-bold text-primary"><br>{{ candidate.programme }}</span></h6>#}
                         <input type="radio" class="btn-check" name="{{ position.title }}" value="{{ candidate_position.id }}" id="{{ candidate_position.id }}">
                         <label class="btn btn-outline-dark fw-bolder px-4 ms-2 fs-8" for="{{ candidate_position.id }}">Vote</label>
                     </div>

@@ -32,7 +32,7 @@
                     {% if current_user.is_authenticated %}
                         <a href="{{ url_for('logout') }}"><button class="btn btn-primary" type="button" style="margin-right: 5px;font-family: ABeeZee, sans-serif;background: rgb(2,36,85);">Logout</button></a>
                     {% else %}
-                        <a href="{{ url_for('register') }}"><button class="btn btn-primary" type="button" style="margin-right: 5px;font-family: ABeeZee, sans-serif;background: rgb(2,36,85);">Register</button></a>
+{#                        <a href="{{ url_for('register') }}"><button class="btn btn-primary" type="button" style="margin-right: 5px;font-family: ABeeZee, sans-serif;background: rgb(2,36,85);">Register</button></a>#}
                         <a href="{{ url_for('login') }}"><button class="btn btn-primary" type="button" style="margin-right: 5px;font-family: ABeeZee, sans-serif;background: rgb(2,36,85);">Login</button></a>
                     {% endif %}
                 </div>
