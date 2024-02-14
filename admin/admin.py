@@ -4,7 +4,7 @@ from flask_login import current_user
 
 
 class UserView(ModelView):
-    can_edit = False
+    can_edit = True
     column_exclude_list = ['created_at', 'updated_at', 'password']
 
     def is_accessible(self):
