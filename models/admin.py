@@ -3,7 +3,6 @@ from flask_bcrypt import Bcrypt
 from flask_login import UserMixin
 
 
-
 class Admin(BaseModel, db.Model, UserMixin):
     """User's Table"""
     __tablename__ = 'admins'

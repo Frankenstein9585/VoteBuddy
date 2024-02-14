@@ -3,7 +3,6 @@ from flask_bcrypt import Bcrypt
 from flask_login import UserMixin
 
 
-
 class Positions(BaseModel, db.Model):
     """User's Table"""
     __tablename__ = 'positions'
