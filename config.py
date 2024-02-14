@@ -73,7 +73,7 @@ def token():
 def populate_users():
     import csv
     from models import User
-    csv_file_path = 'students.csv'
+    csv_file_path = 'students_new.csv'
     with app.app_context():
         with open(csv_file_path, 'r') as csv_file:
             csv_reader = csv.DictReader(csv_file)

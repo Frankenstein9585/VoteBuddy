@@ -13,8 +13,8 @@ def admin_register():
         return redirect((url_for('admin.index')))
     form = AdminRegisterForm()
     if form.validate_on_submit():
-        # if not isinstance(current_user, Admin):
-        #     return 'Error'
+        if not isinstance(current_user, Admin):
+            return 'Error'
         hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
         admin = Admin(first_name=form.first_name.data, last_name=form.last_name.data, username=form.username.data,
                       password=hashed_password)
