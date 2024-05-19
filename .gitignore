@@ -7,6 +7,7 @@ FACUS.csv
 AU202000623.png
 AU202000348.png
 donny2.jpg
+setup_mysql_dev
 =======
 ./.gitignore
 ./votebuddy.sock
