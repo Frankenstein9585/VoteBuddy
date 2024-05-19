@@ -41,8 +41,7 @@ class VoteView(ModelView):
 
 
 class CandidateView(ModelView):
-    form_columns = ['first_name', 'last_name', 'faculty', 'department', 'programme',
-                    'positions']
+    form_columns = ['name', 'positions']
     column_list = form_columns
     form_excluded_columns = ['created_at', 'updated_at']
 
