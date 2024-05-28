@@ -14,7 +14,7 @@ import logging
 
 user = getenv('VOTEBUDDY_USER')
 password = getenv('VOTEBUDDY_PWD')
-database = 'SWBuddy'
+database = getenv('VOTEBUDDY_DB')
 host = getenv('VOTEBUDDY_HOST')
 
 app = Flask(__name__)
