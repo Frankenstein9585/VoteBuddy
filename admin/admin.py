@@ -55,7 +55,7 @@ class CandidateView(ModelView):
 
 
 class PositionsView(ModelView):
-    column_list = ['title', 'candidates']
+    column_list = ['title', 'candidates', 'index']
     column_exclude_list = ['created_at', 'updated_at']
     form_excluded_columns = ['created_at', 'updated_at']
 

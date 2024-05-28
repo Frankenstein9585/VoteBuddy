@@ -8,6 +8,7 @@ class Positions(BaseModel, db.Model):
     __tablename__ = 'positions'
     title = db.Column(db.String(126), nullable=True)
     candidates = db.relationship('Candidate', secondary='candidate_position_association', back_populates='positions')
+    index = db.Column(db.Integer, nullable=True)
     votes = db.relationship('Vote', back_populates='position')
 
     def __init__(self, *args, **kwargs):

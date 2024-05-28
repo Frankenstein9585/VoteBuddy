@@ -55,7 +55,7 @@
            {% endif %}
        {% endwith %}
     <div class="container-xl big-padding">
-        <div class="row section-title"><h2 class="fs-4">Augustine University Students' Representatives Election</h2>
+        <div class="row section-title"><h2 class="fs-4">Augustine University Dinner Night Awards</h2>
             <p style="font-size: 20px">Cast Your Votes</p>
         </div>
         <form action="/cast-vote" method="POST" enctype="multipart/form-data">
@@ -75,8 +75,8 @@
                   {% for candidate_position in candidate_positions %}
                       {% set candidate = Candidate.find_obj_by(id=candidate_position.candidate_id) %}
                 <div class="col-md-6 col-lg-4">
-			<div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/candidate_img/{{ candidate.first_name  }}.jpg" alt="">
-                        <h4 class="fs-3 fw-bold mt-3 mb-1"><strong>{{ candidate.name.title() }}</strong></h4>
+			<div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/candidate_img/{{ candidate.name.split()[1] }}.jpg" alt="">
+                        <h4 class="fs-3 mt-3 mb-1"><strong>{{ candidate.name.title().split()[0] }} {{ candidate.name.title().split()[1] }}</strong></h4>
                         <h6 class="fs-6 fs-7 fw-bold text-primary" style="margin-bottom: 16px;margin-top: 16px;">{{ candidate.department }}{#  : <span class="fw-bold text-primary"><br>{{ candidate.programme }}</span> #}</h6>
                         <input type="radio" class="btn-check" name="{{ position.title }}" value="{{ candidate_position.id }}" id="{{ candidate_position.id }}">
                         <label class="btn btn-outline-dark fw-bolder px-4 ms-2 fs-8" for="{{ candidate_position.id }}">Vote</label>

@@ -453,9 +453,9 @@ body {
   position: sticky;
 }
 
-.fw-bold {
-  font-weight: 600 !important;
-}
+/*.fw-bold {*/
+/*  font-weight: 600 !important;*/
+/*}*/
 
 .bg-gray {
   background: rgba(217, 217, 217, 0.25);
