@@ -11,9 +11,9 @@ class Candidate(BaseModel, db.Model):
     # last_name = db.Column(db.String(126), nullable=False)
     name = db.Column(db.String(126), nullable=False)
     # image = db.Column(db.String(126), nullable=True)
-    # faculty = db.Column(db.String(126), nullable=True)
-    # department = db.Column(db.String(126), nullable=True)
-    # programme = db.Column(db.String(126), nullable=True)
+    faculty = db.Column(db.String(126), nullable=True)
+    department = db.Column(db.String(126), nullable=True)
+    programme = db.Column(db.String(126), nullable=True)
     # vote_count = db.Column(db.Integer, nullable=False, default=0)
     positions = db.relationship('Positions', secondary='candidate_position_association', back_populates='candidates')
     votes = db.relationship('Vote', back_populates='candidate')
@@ -22,4 +22,4 @@ class Candidate(BaseModel, db.Model):
         super().__init__(*args, **kwargs)
 
     def __str__(self):
-        return self.first_name + ' ' + self.last_name
+        return self.name

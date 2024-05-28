@@ -85,14 +85,16 @@ def populate_users():
 
 
 def populate_candidates():
-    from models import User, Candidate
+    import csv
+    from models import User
+    csv_file_path = 'candidates.csv'
     with app.app_context():
-        users = User.query.all()
-        users_list = [user.name for user in users]
-        for item in users_list:
-            new_candidate = Candidate(name=item)
-            db.session.add(new_candidate)
-        db.session.commit()
+        with open(csv_file_path, 'r') as csv_file:
+            csv_reader = csv.DictReader(csv_file)
+            for row in csv_reader:
+                new_candidate = Candidate(**row)
+                db.session.add(new_candidate)
+            db.session.commit()
 
 from routes import index, login, register, votes
 from admin.routes import admin_login, admin_register
