@@ -75,7 +75,7 @@
                   {% for candidate_position in candidate_positions %}
                       {% set candidate = Candidate.find_obj_by(id=candidate_position.candidate_id) %}
                 <div class="col-md-6 col-lg-4">
-			<div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/candidate_img/{{ candidate.name.split()[1] }}.jpg" alt="">
+			<div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/candidate_img/{{ candidate.name.split()[1].casefold() }}.jpg" alt="">
                         <h4 class="fs-3 mt-3 mb-1"><strong>{{ candidate.name.title().split()[0] }} {{ candidate.name.title().split()[1] }}</strong></h4>
                         <h6 class="fs-6 fs-7 fw-bold text-primary" style="margin-bottom: 16px;margin-top: 16px;">{{ candidate.department }}{#  : <span class="fw-bold text-primary"><br>{{ candidate.programme }}</span> #}</h6>
                         <input type="radio" class="btn-check" name="{{ position.title }}" value="{{ candidate_position.id }}" id="{{ candidate_position.id }}">
