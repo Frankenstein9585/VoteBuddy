@@ -1,3 +1,5 @@
+import os
+
 import boto3
 
 
@@ -19,8 +21,5 @@ def aws_textract_local(image_path):
         if item['BlockType'] == 'LINE':
             detected_text += item['Text'] + '\n'
 
+    os.remove(f'{image_path}')
     return detected_text.casefold()
-
-
-# # Example usage
-# print(aws_textract_local('AU202000348.png'))
