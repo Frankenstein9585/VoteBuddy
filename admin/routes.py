@@ -47,7 +47,7 @@ def result():
     if not isinstance(current_user, Admin):
         return 'You should not be here'
     users_voted_count = len(User.query.filter_by(has_voted=True).all())
-    positions = Positions.query.all()
+    positions = Positions.query.order_by(Positions.index).all()
     return render_template('admin/analytics.html', positions=positions, Candidate=Candidate,
                            CandidatePositionAssociation=CandidatePositionAssociation,
                            users_voted_count=users_voted_count)
