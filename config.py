@@ -84,5 +84,5 @@ def populate_users():
             db.session.commit()
 
 
-from routes import index, login, register, votes
+from routes import index, login, register, votes, nominate
 from admin.routes import admin_login, admin_register
