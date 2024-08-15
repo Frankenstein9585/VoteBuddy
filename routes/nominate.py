@@ -1,7 +1,7 @@
 from flask_login import login_required, current_user
 from config import app, db
 from flask import render_template, request, redirect, url_for, jsonify
-from models import Positions, User, Candidate, CandidatePositionAssociation
+from models import Positions, User, Candidate, CandidatePositionAssociation, Vote
 
 
 @app.route('/nominees')
@@ -32,6 +32,7 @@ def nominate():
                 if candidate in ["", None]:
                     continue
                 candidate_obj = Candidate.find_obj_by(name=candidate)
+                position_obj = Positions.find_obj_by(id=position_id)
                 candidate_id = candidate_obj.id
                 candidate_position = CandidatePositionAssociation.query.filter_by(
                     candidate_id=candidate_id, position_id=position_id
@@ -41,6 +42,9 @@ def nominate():
                 else:
                     candidate_position = CandidatePositionAssociation(candidate_id=candidate_id, position_id=position_id,
                                                                       vote_count=1)
+
+                vote_object = Vote(user=current_user, candidate=candidate_obj, position=position_obj)
+                vote_object.save()
                 candidate_position.save()
             db.session.commit()
         text = 'Your Nominations have been placed!'
