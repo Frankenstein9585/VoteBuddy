@@ -5,6 +5,7 @@ from models import Positions, User, Candidate, CandidatePositionAssociation
 
 
 @app.route('/nominees')
+@login_required
 def nominees():
     positions = Positions.query.order_by(Positions.index).all()
     return render_template('nominees.html', positions=positions)
@@ -20,26 +21,30 @@ def autocomplete():
 
 
 @app.route('/nominate', methods=['GET', 'POST'])
+@login_required
 def nominate():
-    ids = []
-    if request.method == 'POST':
-        print('Request Received')
-        nominations = request.form.to_dict()
-        nominations.pop('csrf_token')
-        for position_id, candidate in nominations.items():
-            if candidate in ["", None]:
-                continue
-            candidate_obj = Candidate.find_obj_by(name=candidate)
-            candidate_id = candidate_obj.id
-            candidate_position = CandidatePositionAssociation.query.filter_by(
-                candidate_id=candidate_id, position_id=position_id
-            ).first()
-            if candidate_position:
-                candidate_position.vote_count += 1
-            else:
-                candidate_position = CandidatePositionAssociation(candidate_id=candidate_id, position_id=position_id,
-                                                                  vote_count=1)
-            candidate_position.save()
-        db.session.commit()
-        return nominations
+    if not current_user.has_voted:
+        if request.method == 'POST':
+            print('Request Received')
+            nominations = request.form.to_dict()
+            nominations.pop('csrf_token')
+            for position_id, candidate in nominations.items():
+                if candidate in ["", None]:
+                    continue
+                candidate_obj = Candidate.find_obj_by(name=candidate)
+                candidate_id = candidate_obj.id
+                candidate_position = CandidatePositionAssociation.query.filter_by(
+                    candidate_id=candidate_id, position_id=position_id
+                ).first()
+                if candidate_position:
+                    candidate_position.vote_count += 1
+                else:
+                    candidate_position = CandidatePositionAssociation(candidate_id=candidate_id, position_id=position_id,
+                                                                      vote_count=1)
+                candidate_position.save()
+            db.session.commit()
+        text = 'Your Nominations have been placed!'
+    else:
+        text = 'You have already placed your nominations'
+    return render_template('thankyou.html', text=text)
 

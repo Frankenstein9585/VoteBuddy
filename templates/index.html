@@ -118,7 +118,7 @@
                 {% if current_user.is_authenticated %}
                     <h1 style="margin: 4px;margin-right: 0;margin-left: 0;">Hello, <a href="#" data-bs-toggle="modal" data-bs-target="#modal-1">{{ current_user.name.split()[1] }}</a>!</h1>
                     <h5 style="margin: 11px;margin-right: 0;margin-left: 0;">Click the Button to Begin</h5>
-                    <div class="text-center"><a href="{{ url_for('votes') }}"><button class="btn btn-primary" type="button" style="background: rgb(2,36,85);padding: 9px 18px;font-size: 18px;margin-top: 5px;">Cast Vote</button></a></div>
+                    <div class="text-center"><a href="{{ url_for('nominees') }}"><button class="btn btn-primary" type="button" style="background: rgb(2,36,85);padding: 9px 18px;font-size: 18px;margin-top: 5px;">Nominate</button></a></div>
                 {% else %}
                     <h1 style="margin: 4px;margin-right: 0;margin-left: 0;">Welcome to VoteBuddy</h1>
                     <h5 style="margin: 11px;margin-right: 0;margin-left: 0;">Augustine University's e-Voting Platform</h5>
