@@ -1,14 +1,17 @@
 from flask_login import login_required, current_user
 from config import app, db
-from flask import render_template, request, redirect, url_for, jsonify
+from flask import flash, render_template, request, redirect, url_for, jsonify
 from models import Positions, User, Candidate, CandidatePositionAssociation, Vote
 
 
 @app.route('/nominees')
 @login_required
 def nominees():
-    positions = Positions.query.order_by(Positions.index).all()
-    return render_template('nominees.html', positions=positions)
+    if not current_user.has_voted:
+        positions = Positions.query.order_by(Positions.index).all()
+        return render_template('nominees.html', positions=positions)
+    else:
+        return render_template('thankyou.html', text='You have already placed your nominations')
 
 
 @app.route('/autocomplete', methods=['GET'])
@@ -32,6 +35,10 @@ def nominate():
                 if candidate in ["", None]:
                     continue
                 candidate_obj = Candidate.find_obj_by(name=candidate)
+
+                if candidate_obj is None:
+                    flash('Invalid candidate name(s), please use the names provided in the suggestions', 'danger')
+                    return redirect(url_for('nominees'))
                 position_obj = Positions.find_obj_by(id=position_id)
                 candidate_id = candidate_obj.id
                 candidate_position = CandidatePositionAssociation.query.filter_by(
@@ -46,6 +53,7 @@ def nominate():
                 vote_object = Vote(user=current_user, candidate=candidate_obj, position=position_obj)
                 vote_object.save()
                 candidate_position.save()
+            current_user.has_voted = True
             db.session.commit()
         text = 'Your Nominations have been placed!'
     else:
