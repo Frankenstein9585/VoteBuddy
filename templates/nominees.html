@@ -79,6 +79,25 @@
         </div>
         </form>
     </div>
+
+    <div class="modal fade" id="emptyFieldsModal" tabindex="-1" aria-labelledby="emptyFieldsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="emptyFieldsModalLabel">Incomplete Form</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Some fields are empty. Are you sure you want to submit the form with missing nominations?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go Back</button>
+                <button type="button" class="btn btn-primary" id="confirmSubmit">Submit Anyway</button>
+            </div>
+        </div>
+    </div>
+</div>
+
     <footer class="text-center py-4">
         <div class="container">
             <div class="row row-cols-1 row-cols-lg-3">
@@ -123,5 +142,6 @@
         });
     });
     </script>
+    <script src="../static/assets/js/nominate.js"></script>
 </body>
 </html>
