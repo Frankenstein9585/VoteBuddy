@@ -1,7 +1,7 @@
 def check_id(img_path, matric_number):
     from config import User
-    from utils.gcloud_ocr import detect_text
-    student_info = detect_text(img_path)
+    from utils.aws_ocr import aws_textract_local
+    student_info = aws_textract_local(img_path)
     print(student_info)
     if not student_info:
         return None
