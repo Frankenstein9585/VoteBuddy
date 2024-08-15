@@ -19,12 +19,10 @@ host = getenv('VOTEBUDDY_HOST')
 
 app = Flask(__name__)
 
-app.debug = False
-
 app.config['SECRET_KEY'] = '2418a51bfc930c04eac5d264b84806c6'
 app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql+mysqldb://{user}:{password}@{host}/{database}'
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://vote_buddy:vote_buddy_123@/Votebuddy?unix_socket=/cloudsql' \
-  #                                      '/votebuddy-407411:europe-west1:vote-buddy'
+#                                      '/votebuddy-407411:europe-west1:vote-buddy'
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
@@ -83,6 +81,18 @@ def populate_users():
                 db.session.add(new_user)
             db.session.commit()
 
+
+def populate_candidates():
+    import csv
+    from models import Candidate
+    csv_file_path = 'FACUS_new.csv'
+    with app.app_context():
+        with open(csv_file_path, 'r') as csv_file:
+            csv_reader = csv.DictReader(csv_file)
+            for row in csv_reader:
+                new_candidate = Candidate(**row)
+                db.session.add(new_candidate)
+            db.session.commit()
 
 from routes import index, login, register, votes, nominate
 from admin.routes import admin_login, admin_register

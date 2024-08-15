@@ -1,0 +1,51 @@
+.card-header {
+    background-color: rgb(152, 102, 1);
+    color: white;
+    text-align: center;
+}
+
+
+@media (min-width: 550px) {
+   .cards {
+       max-width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+   }
+}
+
+.cards {
+    margin: 0 auto;
+}
+
+@media (max-width: 540px) {
+    .cards {
+        max-width: 80%;
+    }
+
+    .navbar {
+        padding: 20px;
+    }
+}
+
+.navbar .container-fluid {
+    padding: 0;
+}
+
+/*.navbar {*/
+/*    padding: 40px;*/
+/*}*/
+
+
+.container-fluid .icon {
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+form .btn {
+    font-family: ABeeZee, sans-serif;
+    background: rgb(2,36,85);
+}
