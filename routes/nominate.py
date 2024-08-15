@@ -1,6 +1,6 @@
 from flask_login import login_required, current_user
 from config import app, db
-from flask import flash, render_template, request, redirect, url_for, jsonify
+from flask import flash, render_template, request, redirect, url_for, jsonify, session
 from models import Positions, User, Candidate, CandidatePositionAssociation, Vote
 
 
@@ -8,8 +8,9 @@ from models import Positions, User, Candidate, CandidatePositionAssociation, Vot
 @login_required
 def nominees():
     if not current_user.has_voted:
+        nominations = session.pop('nominations', None)
         positions = Positions.query.order_by(Positions.index).all()
-        return render_template('nominees.html', positions=positions)
+        return render_template('nominees.html', positions=positions, nominations=nominations)
     else:
         return render_template('thankyou.html', text='You have already placed your nominations')
 
@@ -31,6 +32,8 @@ def nominate():
             print('Request Received')
             nominations = request.form.to_dict()
             nominations.pop('csrf_token')
+
+            session['nominations'] = nominations
             for position_id, candidate in nominations.items():
                 if candidate in ["", None]:
                     continue

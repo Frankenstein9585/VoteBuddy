@@ -65,7 +65,8 @@
                 <div class="card-body">
                     <div class="mb-3">
                         <label for="category1" class="form-label">Nominee Name</label>
-                        <input type="text" class="form-control" id="category1" name="{{ position.id }}" placeholder="Enter nominee's full name">
+                        <input type="text" class="form-control" id="category1" name="{{ position.id }}" placeholder="Enter nominee's full name"
+                               value="{{ nominations[position.id] if nominations else '' }}">
                     </div>
                 </div>
             </div>
