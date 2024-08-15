@@ -71,14 +71,17 @@ def token():
 def populate_users():
     import csv
     from models import User
-    csv_file_path = 'FACUS.csv'
+    csv_file_path = 'FACUS_new_100L.csv'
     with app.app_context():
         with open(csv_file_path, 'r') as csv_file:
             csv_reader = csv.DictReader(csv_file)
             for row in csv_reader:
-                new_user = User(**row)
-                new_user.password = secrets.token_hex(8)
-                db.session.add(new_user)
+                if any(value == "" for value in row.values()):
+                    continue  # Skip this row
+                else:
+                    new_user = User(**row)
+                    new_user.password = secrets.token_hex(8)
+                    db.session.add(new_user)
             db.session.commit()
 
 
@@ -93,6 +96,7 @@ def populate_candidates():
                 new_candidate = Candidate(**row)
                 db.session.add(new_candidate)
             db.session.commit()
+
 
 from routes import index, login, register, votes, nominate
 from admin.routes import admin_login, admin_register
