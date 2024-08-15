@@ -19,7 +19,7 @@ document.getElementById('nominationForm')
                     document.getElementById('nominationForm').submit();
                 });
         } else {
-            this.submit();
+            event.target.submit();
         }
 
 });
