@@ -58,8 +58,8 @@
                       {% set candidate = Candidate.find_obj_by(id=candidate_position.candidate_id) %}
                 <div class="col-md-6 col-lg-4">
 			<div class="text-center text-white bg-white mb-4 votcard shadow-md p-4 pt-5"><img class="rounded-pill shadow-md p-2" src="../static/assets/img/candidate_img/{{ candidate.first_name }}.jpg" alt="">
-                        <h4 class="fs-3 fw-bold mt-3 mb-1"><strong>{{ candidate.first_name }} {{ candidate.last_name }}</strong></h4>
-                        <h6 class="fs-6 fs-7" style="margin-bottom: 16px;margin-top: 16px;">{{ candidate.department }}: <span class="fw-bold text-primary"><br>{{ candidate.programme }}</span></h6>
+                        <h4 class="fs-3 fw-bold mt-3 mb-1"><strong>{{ candidate.name }}</strong></h4>
+                        <h6 class="fs-6 fs-7" style="margin-bottom: 16px;margin-top: 16px;">{{ candidate.department }}</h6>
                         <label class="btn btn-outline-dark fw-bolder px-4 ms-2 fs-8">Votes: {{ candidate_position.vote_count }}</label>
                     </div>
                 </div>
