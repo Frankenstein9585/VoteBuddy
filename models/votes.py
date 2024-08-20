@@ -3,7 +3,6 @@ from flask_bcrypt import Bcrypt
 from flask_login import UserMixin
 
 
-
 class Vote(BaseModel, db.Model):
     """User's Table"""
     __tablename__ = 'votes'
@@ -16,4 +15,3 @@ class Vote(BaseModel, db.Model):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-
