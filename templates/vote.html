@@ -58,7 +58,7 @@
         <div class="row section-title"><h2 class="fs-4">Augustine University Dinner Night Awards</h2>
             <p style="font-size: 20px">Cast Your Votes</p>
         </div>
-        <form action="/cast-vote" method="POST" enctype="multipart/form-data">
+        <form id="nominationForm" action="/cast-vote" method="POST" enctype="multipart/form-data">
         <input id="csrf_token" name="csrf_token" type="hidden" value="{{ csrf_token() }}">
         <div class="accordion" id="accordionExample">
         {% for position in positions %}
@@ -103,6 +103,27 @@
         <input class="btn btn-primary mt-4" type="submit">
         </form>
     </div>
+
+    <div class="modal fade" id="emptyFieldsModal" tabindex="-1" aria-labelledby="emptyFieldsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="emptyFieldsModalLabel">Whoops!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>The following positions are missing a vote:</p>
+                <ul id="missingFieldsList"></ul>
+                <p>Are you sure you want to submit the form with missing votes?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go Back</button>
+                <button type="button" class="btn btn-primary" id="confirmSubmit">Submit Anyway</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
     <footer class="text-center py-4">
         <div class="container">
             <div class="row row-cols-1 row-cols-lg-3">
@@ -122,6 +143,7 @@
     <script src="../static/assets/js/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
     <script src="../static/assets/js/plugins/testimonial/js/owl.carousel.min.js"></script>
     <script src="../static/assets/js/js/script.js"></script>
+    <script src="../static/assets/js/nominate.js"></script>
 </body>
 
 </html>
