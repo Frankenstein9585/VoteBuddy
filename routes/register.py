@@ -7,6 +7,7 @@ from flask_login import current_user
 from config import app, bcrypt
 from flask import flash, render_template, redirect, request, url_for
 from forms.register import RegisterForm
+from models import User
 # from gcloud_ocr import detect_text
 from utils.check_id import check_id
 from PIL import Image

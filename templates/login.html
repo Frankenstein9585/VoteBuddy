@@ -66,6 +66,32 @@
                             {{ form.matric_number(class="form-control fc", placeholder="AU20XX00XXX") }}
                         {% endif %}
                     </div>
+                    <div class="input-with-label">
+                        <label class="form-label">Last Name</label>
+                        {% if form.last_name.errors %}
+                            {{ form.last_name(class="form-control fc is-invalid mb-0") }}
+                            <div class="invalid-feedback">
+                                {% for error in form.last_name.errors %}
+                                    <span>{{ error }}</span>
+                                {% endfor %}
+                            </div>
+                        {% else %}
+                            {{ form.last_name(class="form-control fc", placeholder="Doe") }}
+                        {% endif %}
+                    </div>
+                    <div class="input-with-label">
+                        <label class="form-label">Level</label>
+                        {% if form.level.errors %}
+                            {{ form.level(class="form-control fc is-invalid mb-0") }}
+                            <div class="invalid-feedback">
+                                {% for error in form.level.errors %}
+                                    <span>{{ error }}</span>
+                                {% endfor %}
+                            </div>
+                        {% else %}
+                            {{ form.level(class="form-control fc") }}
+                        {% endif %}
+                    </div>
                     <div class="actions">
                         {{ form.submit(class="btn btn-primary submit") }}
                         </div>

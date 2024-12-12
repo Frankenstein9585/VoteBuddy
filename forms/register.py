@@ -8,10 +8,13 @@ from models import User
 
 class RegisterForm(FlaskForm):
     """Handles registrations"""
-    matric_number = StringField('Matriculation Number* (in upper case)', validators=[DataRequired(), Length(max=15)])
+    matric_number = StringField('Matriculation Number', validators=[DataRequired(), Length(max=11)])
+    first_name = StringField('Matriculation Number', validators=[DataRequired(), Length(max=50)])
+    middle_name = StringField('Matriculation Number', validators=[DataRequired(), Length(max=50)])
+    last_name = StringField('Matriculation Number', validators=[DataRequired(), Length(max=50)])
+    level = StringField('Matriculation Number', validators=[DataRequired(), Length(max=3)])
     password = PasswordField('Password', validators=[DataRequired(), Length(min=8)])
     confirm_password = PasswordField('Confirm Password', validators=[DataRequired(), EqualTo('password')])
-    image_byte_string = HiddenField('Verify ID: Please take a clear picture of your ID Card', validators=[DataRequired()])
     submit = SubmitField('Register')
 
     def validate_matric_number(self, matric_number):

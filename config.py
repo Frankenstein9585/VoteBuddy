@@ -1,5 +1,6 @@
 import os
 from os import getenv
+from dotenv import load_dotenv
 import secrets
 from flask import Flask, session, jsonify
 from flask_admin import Admin
@@ -11,6 +12,8 @@ from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf.csrf import CSRFProtect, generate_csrf
 import logging
+
+load_dotenv()
 
 user = getenv('VOTEBUDDY_USER')
 password = getenv('VOTEBUDDY_PWD')
@@ -73,7 +76,7 @@ def token():
 def populate_users():
     import csv
     from models import User
-    csv_file_path = 'lectors.csv'
+    csv_file_path = 'mass_comm.csv'
     with app.app_context():
         with open(csv_file_path, 'r') as csv_file:
             csv_reader = csv.DictReader(csv_file)
@@ -83,5 +86,5 @@ def populate_users():
             db.session.commit()
 
 
-from routes import index, login, register, votes
+from routes import index, login, votes
 from admin.routes import admin_login, admin_register
