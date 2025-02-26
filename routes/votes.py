@@ -9,7 +9,7 @@ from models import Positions, Candidate, CandidatePositionAssociation, Vote, Use
 @login_required
 def votes():
     if not current_user.has_voted:
-        positions = Positions.query.all()
+        positions = Positions.query.order_by(Positions.index).all()
         return render_template('vote.html', positions=positions, Candidate=Candidate,
                                CandidatePositionAssociation=CandidatePositionAssociation)
     else:
