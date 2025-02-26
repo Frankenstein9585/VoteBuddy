@@ -73,18 +73,9 @@ def token():
     return jsonify({'X-CSRFToken': csrf_token})
 
 
-def populate_users():
-    import csv
-    from models import User
-    csv_file_path = 'mass_comm.csv'
-    with app.app_context():
-        with open(csv_file_path, 'r') as csv_file:
-            csv_reader = csv.DictReader(csv_file)
-            for row in csv_reader:
-                new_user = User(**row)
-                db.session.add(new_user)
-            db.session.commit()
+
 
 
 from routes import index, login, votes
 from admin.routes import admin_login, admin_register
+

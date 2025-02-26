@@ -12,8 +12,8 @@ def login():
         return redirect(url_for('index'))
     form = LoginForm()
     if form.validate_on_submit():
-        user = User.find_obj_by(matric_number=form.matric_number.data, level=form.level.data)
-        if user and user.name.split()[0].casefold() == form.last_name.data.casefold():
+        user = User.find_obj_by(matric_number=form.matric_number.data, level=form.level.data, department=form.programme.data)
+        if user:
             login_user(user)
             next_page = request.args.get('next')
             flash('Login Successful. Click your name for more info', 'success')

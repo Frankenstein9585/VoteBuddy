@@ -1,0 +1,963 @@
+matric_number,name,gender,level,department
+AU00121,CHIKERE GEORGE IHECHUKWU,Male,400,B.Sc. Accounting
+AU00147,Chukwualuka  Daniel,Male,400,B.Sc. Computer Science
+AU00210,Opara Augustus Chibueze,Male,400,B.A. Philosophy
+AU00217,Umelo Divine Chigozirim,Male,400,B.Sc. Business Administration
+AU00228,Amaghereonu George Okechukwu,Male,400,B.Sc. Computer Science
+AU201900238,Nwankwo Collins CHIBUIKE,Male,400,B.Sc. Business Administration
+AU201900257,Nwaegbu  Johnpaul  ChukwuEbuka,Male,400,B.Sc. Computer Science
+AU202000298,Odidi Ayodeji James,Male,400,B.Sc. Computer Science
+AU202000315,Oladokun Michael Oluwadamilare,Male,400,B.Sc. Computer Science
+AU202000327,Adeleke David Oluwabukolami,Male,400,B.Sc. Computer Science
+AU202000343,IBE FRIDAY IGO,Male,400,B.Sc. Biochemistry
+AU202000361,Onusulu Ebubechukwu Charles,Male,400,B.Sc. Computer Science
+AU202000364,Akorah Justin Kaosidilinna,Male,400,B.Sc. Computer Science
+AU202000367,Oladejo Luke Oluwatomisin,Male,400,B.Sc. Computer Science
+AU202000373,Adekeye Fiyinfoluwa Precious,Female,400,B.A. Philosophy
+AU202000384,Asuquo Emmanuel Ekemini,Male,400,B.Sc. Computer Science
+AU202000387,Ijezie Charles Elochukwu,Male,400,B.Sc. Business Administration
+AU202100389,IBIKUNLE Oluwabunmi Justus,Male,400,B.Sc. Economics
+AU202100391,Akuwudike Kenechukwu  Favour,Male,400,B.Sc. Business Administration
+AU202100393,Onamade Eric Oluwademilade,Male,400,B.Sc. Accounting
+AU202100394,SANYA CHRISTIANA OLAMIDE,Female,400,B.Sc. Microbiology
+AU202100396,Isaac-Ugwu Gloria  Chidimma,Female,400,B.Sc. Accounting
+AU202100397,Eze Chinazaekpere  Winifred,Female,400,B.Sc. Accounting
+AU202100398,Ojiekwe Francis Chibuike,Male,400,B.Sc. Accounting
+AU202100399,AGBAIRE  OGHENEMUDIAGA  GREGORY,Male,400,B.Sc. Economics
+AU202100400,okere ugochukwu Gloria,Female,400,B.Sc. Biotechnology
+AU202100401,UDEONU PRISCA SOMTOCHUKWU,Female,400,B.Sc. Microbiology
+AU202100402,Uwakwe  Amarachi Mary,Female,400,B.Sc. Microbiology
+AU202100403,NDUKA IFEOMA ANDREA,Female,400,B.A. English
+AU202100404,Onyegbulem Mmesoma Mirabel,Female,400,B.Sc. Accounting
+AU202100405,Nzediegwu Stephanie Oluebubechukwu,Female,400,B.Sc. Banking and Finance
+AU202100406,OSEMELE JOY VICTORY,Female,400,B.Sc. Accounting
+AU202100407,Adamu Ayanfeoluwa Samuel,Male,400,B.Sc. Computer Science
+AU202100408,Eyo Emmanuel Aniekan,Male,400,B.Sc. Computer Science
+AU202100409,Emenike Kingsley Kamsi,Male,400,B.Sc. Computer Science
+AU202100410,OBIAGA MALUCHUKWU GIFT,Female,400,B.Sc. Computer Science
+AU202100411,JUDE-EMEZUOM  Chijikenile  Jude,Male,400,B.Sc. Computer Science
+AU202100412,OBUEKWE KOSISOCHUKWU JUSTIN,Male,400,B.Sc. Computer Science
+AU202100413,Odikpo Benedict Chinua,Male,300,B.Sc. Computer Science
+AU202100414,ODIGIE TRIXIE ONOSETALE,Female,400,B.Sc. Computer Science
+AU202100415,Nwaiwu Chibuikem Benedict,Male,400,B.Sc. Computer Science
+AU202100416,Okeke Emeka Williams,Male,400,B.Sc. Computer Science
+AU202100417,Igini Oghenefe Christian oghenemine,Male,300,B.Sc. Computer Science
+AU202100418,Uwadia christopher Eseosenobua,Male,400,B.Sc. Computer Science
+AU202100419,Nutayi Stephen  Seide,Male,400,B.Sc. Information Technology
+AU202100421,Mba Chinonso Maxwell,Male,400,B.Sc. Cyber Security
+AU202100422,Monye Chigozie ifechukwude,Male,400,B.Sc. Cyber Security
+AU202100423,Frank-Aririguzo McDavis Obioma,Male,400,B.Sc. Software Engineering
+AU202100424,Owolabi Joshua Ashimizo,Male,400,B.Sc. Software Engineering
+AU202100425,Abasilim  Chimuanya  jennifer,Female,400,B.Sc. Software Engineering
+AU202100426,Onaro Hesley  Ikechukwu,Male,400,B.Sc. Software Engineering
+AU202100427,Bamgboye Konyinsolami  Tosin,Female,400,B.Sc. Software Engineering
+AU202100428,Morsindi Osejindu Thelma,Female,400,B.Sc. Software Engineering
+AU202100429,OPARA NNAMDI  NONSO,Male,400,B.Sc. Software Engineering
+AU202100430,Ogezi Arabella Oyije,Female,400,B.Sc. Microbiology
+AU202100431,Osuji Chidiebere Richard,Male,400,B.Sc. Computer Science
+AU202100432,Akinsete Oyebanji Adeyemi,Male,400,B.Sc. Cyber Security
+AU202100434,Rita Fabiana,Female,400,B.Sc. Business Administration
+AU202100435,EZEMA AKACHUKWU OSEZUA,Male,400,B.Sc. Business Administration
+AU202100436,Green-Amakwe Owen,Male,400,B.Sc. Accounting
+AU202100437,Isaac-ugwu Clinton  Chiagozie,Male,400,B.Sc. Economics
+AU202100438,Dare-Olude Oluwadoyinsolami  Oluwademilade,Female,400,B.Sc. Political Science
+AU202100440,Nwokoro Olanma Christabel,Female,400,B.Sc. Political Science
+AU202100441,Egboro Solomon Aghware,Male,400,B.Sc. Political Science
+AU202100442,Amazueme Callistus Abuchi,Male,400,B.Sc. Political Science
+AU202100443,Chioke  Ashley chisom,Male,400,B.Sc. Political Science
+AU202100445,Onwuli Elizabeth Obianuju,Female,400,B.Sc. Political Science
+AU202100446,Bamgboye Olufadejuwon  Diekolola,Female,400,B.Sc. Biochemistry
+AU202100447,Osuji Adaeze Maryann,Female,400,B.Sc. Computer Science
+AU202100448,Chukwuemeka Oluchukwu Cletus,Male,400,B.Sc. Computer Science
+AU202100449,NWANGWU ODERA SAMUEL,Male,400,B.Sc. Computer Science
+AU202100450,Ileso Samuel  ohiozoje,Male,400,B.Sc. Computer Science
+AU202100451,Siyanbola Semilore Victor,Male,400,B.Sc. Computer Science
+AU202100454,Bajomo Solomon Akindele,Male,400,B.Sc. Business Administration
+AU202100455,Okeabia Chinenye Susan,Female,400,B.Sc. Microbiology
+AU202100457,Dike  Chisom Abigail,Female,400,B.Sc. Accounting
+AU202100458,KARIEREN  EGWONOGHENE OLUWATOBILOBA,Male,400,B.Sc. Accounting
+AU202100459,Ileso Aidolegbe Bridget,Female,400,B.Sc. Political Science
+AU202100460,ATOE-JOHN VICTORIA Osamudieme,Female,400,B.Sc. Political Science
+AU202100461,EMMA-AGHAUNOR DOMINIC CHIDIEBUBE,Male,400,B.Sc. Political Science
+AU202100462,Ajayi Oluwatofunmi Simon,Male,400,B.Sc. Political Science
+AU202100463,Agbonhese Salome Ebosetale,Female,400,B.Sc. Microbiology
+AU202100464,Chidiobu Chiemelie Maxwell,Male,400,B.Sc. Economics
+AU202100465,Okamgba Chidera Regina,Female,400,B.Sc. Computer Science
+AU202100466,NWAOFOR ANTHONY ONYEKACHI,Male,400,B.Sc. Computer Science
+AU202100467,Bankole-Bawa Babajide  Emmanuel,Male,400,B.Sc. Computer Science
+AU202100468,Oshoke Martins  Afuosi,Male,400,B.Sc. Computer Science
+AU202100469,Okunade Samuel Olushola,Male,400,B.Sc. Computer Science
+AU202100470,Ugbagu Rapuluchukwuokwu Jude,Male,400,B.Sc. Computer Science
+AU202100471,DIPE  IFEOLUWA  JOEL,Male,400,B.Sc. Information Technology
+AU202100472,Uquo-Simeon John Idoreyin,Male,400,B.Sc. Accounting
+AU202100473,Ohaekelem Agnes Ngozi,Female,400,B.Sc. Political Science
+AU202100474,Anjorin Wemimo James,Male,400,B.Sc. Accounting
+AU202100476,WITTE-MOORE HARRY DANIEL,Male,400,B.Sc. Business Administration
+AU202100477,Zubair Paul Morenikeji,Male,400,B.Sc. Business Administration
+AU202100478,Orimolade Ayodeji Benedict,Male,400,B.Sc. Business Administration
+AU202100479,IZUCHUKWU VINCENT CHIBUIKE,Male,400,B.Sc. Business Administration
+AU202100480,Edeoghon Peter Omokhomion,Male,400,B.Sc. Biochemistry
+AU202100481,Fafiola Oluwatimilehin  Esther,Female,400,B.Sc. Biochemistry
+AU202100482,Emenike Hazel  Chioma Adaugo,Female,400,B.Sc. Biochemistry
+AU202100483,Ezeilo Amanda Chisom,Female,400,B.Sc. Economics
+AU202100484,Kosuowei  Rhema Diweri Erebebe,Female,400,B.Sc. Computer Science
+AU202100485,Nebo Angelo Kamsiyochukwu,Male,400,B.Sc. Computer Science
+AU202100486,Adenekan Alfred  Oluwagbenga,Male,400,B.Sc. Computer Science
+AU202100487,Oguntuase Oluwatimilehin Moboluwaduro,Male,400,B.Sc. Computer Science
+AU202100488,CHUKWUEMEKA-ARIH KELVIN EBUKA,Male,400,B.Sc. Computer Science
+AU202100489,Theodore Chiamaka  Zita,Female,400,B.Sc. Biotechnology
+AU202100490,Anthony Theresa Chidiebere,Female,400,B.A. English
+AU202100491,UCHE-NWOSU  UCHE JOSEMARIA,Male,400,B.Sc. Economics
+AU202100492,Unachukwu Kingsley Ndochukwu,Male,400,B.Sc. Economics
+AU202100493,Agali  Chioma Somtochukwu,Female,400,B.Sc. Economics
+AU202100494,Ajudua Deborah  Ekenedilichukwu,Female,400,B.Sc. Economics
+AU202100495,Ayo-Taire Erimesioja Emmanuel,Male,400,B.Sc. Computer Science
+AU202100496,OKENYI Maris  Chioma,Female,400,B.Sc. Software Engineering
+AU202100497,Anayochukwu Gregory Chibuike,Male,400,B.Sc. Software Engineering
+AU202100498,ONYIA  EMMANUEL CHUKWUZITELUM,Male,400,B.Sc. Software Engineering
+AU202100499,Onaga  Onachukwu  Divine,Male,400,B.Sc. Software Engineering
+AU202100500,Okafor Anthony Kamsiyochukwu,Male,400,B.Sc. Software Engineering
+AU202100501,Anyanwu Chukwuemela Raymond,Male,400,B.Sc. Software Engineering
+AU202100502,Ucheze Emmanuel  Ebubechukwu,Male,400,B.Sc. Software Engineering
+AU202100506,Damasus Divine-Favour Oluchi,Female,400,B.Sc. Business Administration
+AU202100507,Otuoniyo Oghene-Rukome Emmanuel,Male,400,B.A. Philosophy
+AU202100510,UGWUMADU OLUEBUBE Gemma,Female,400,B.Sc. Political Science
+AU202100512,NWADA THEOPHILUS CHUKWUNONSO,Male,400,B.Sc. Computer Science
+AU202100513,Adingupu Ngozichukwuka Judith,Female,400,B.Sc. Cyber Security
+AU202100514,Ray-Osakwe Chimdindu  Juliet,Female,400,B.Sc. Cyber Security
+AU202100517,Francis Paul   Oyinmiebi,Male,400,B.Sc. Software Engineering
+AU202100518,Mmuo Peter Onyinye,Male,400,B.Sc. Software Engineering
+AU202100519,Obinodu Anastasia Nwamaka,Female,400,B.Sc. Microbiology
+AU202100521,OLANIYI ENITAN C0NSTANCE,Female,400,B.Sc. Biotechnology
+AU202100523,Uduigwome Esther Tobiloba,Female,400,B.Sc. Mass Communication
+AU202100524,Hembaor  Peter Terna,Male,300,B.Sc. Mass Communication
+AU202100525,OMIGIE OLUDARA OGHOGHO,Female,400,B.Sc. Mass Communication
+AU202100526,Nougbode  Benita Yetunde,Female,400,B.Sc. Mass Communication
+AU202100528,Osuchukwu Chijidem LumenIsraela,Female,400,B.Sc. Mass Communication
+AU202100529,IYANDA AYODEJI  PETER,Male,400,B.Sc. Mass Communication
+AU202100530,Osawemen  Iraoya  Anthony,Male,300,B.Sc. Mass Communication
+AU202100531,Odunowo Oluwatamilore Damilola,Male,400,B.Sc. Mass Communication
+AU202100532,Ezimorah  Ogechukwu  Immaculata,Female,400,B.Sc. Mass Communication
+AU202100533,Onwuemene Joy Ebelechukwu,Female,400,B.Sc. Mass Communication
+AU202100534,ANENE OSADEBAMEN REJOICE,Female,400,B.Sc. Mass Communication
+AU202100535,Uzowulu Chizaram Thaddeus,Male,400,B.Sc. Mass Communication
+AU202100536,Akpan Utibeabasi  Morolaoluwa,Female,400,B.Sc. Mass Communication
+AU202100537,Kabai-Nwabunma Clare Chinonye,Female,400,B.Sc. Mass Communication
+AU202100538,Etusi-Ehimen Adoration Ituahi,Female,400,B.Sc. Mass Communication
+AU202100539,Nnachi Chioma peace,Female,400,B.Sc. Mass Communication
+AU202100541,Jibunoh  Chinaza Ogechukwu,Female,400,B.Sc. Mass Communication
+AU202100542,Etea Anita Chidiebube,Female,400,B.Sc. Mass Communication
+AU202100543,Obieze Kelly chinecherem,Male,400,B.Sc. Mass Communication
+AU202100544,OKE DAVID OLUWADEMILADE,Male,400,B.Sc. Mass Communication
+AU202100545,Olekaoha Onyekachukwu Emmanuel,Male,400,B.Sc. Mass Communication
+AU202100546,Ikpe Amuche Prisca,Female,400,B.Sc. Mass Communication
+AU202100547,Amaechi Theodora Onyinye,Female,400,B.Sc. Mass Communication
+AU202100548,Ige Samuel Adedoyin,Male,400,B.Sc. Mass Communication
+AU202100550,Onyeka Kamsiyochukwu Stephanie,Female,400,B.Sc. Mass Communication
+AU202100551,Nwaokolo  David Onochie,Male,400,B.Sc. Software Engineering
+AU202100552,Ehondor Aisosa Chukuwuemeke,Male,400,B.Sc. Software Engineering
+AU202100553,Ukenna Jeffery Ifeanyichukwu,Male,400,B.Sc. Software Engineering
+AU202100554,Onyeka Kaobimdi charles,Male,400,B.Sc. Cyber Security
+AU202100555,CHUKWUKELU EMMANUELLA OGECHI,Female,400,B.Sc. Computer Science
+AU202100556,Esiaka  Alvan Chiwetel,Male,400,B.Sc. Computer Science
+AU202100557,Atiomo Aidomo Francis-Xavier,Male,400,B.Sc. Mass Communication
+AU202100559,Iduvu Favour Oghenekome,Female,400,B.Sc. Mass Communication
+AU202100560,UDEH SOMTOCHUKWU   LUCKY,Male,400,B.A. Philosophy
+AU202100561,MARTINS PETER UGOCHUKWU,Male,400,B.A. English
+AU202100562,Johnson  Amos  Folorunsho,Male,400,B.Sc. Computer Science
+AU202100563,OLUFEMI TOMIWA STEPHEN,Male,400,B.Sc. Computer Science
+AU202100564,UMEJI Ephraim  Maduabuchi,Male,400,B.Sc. Information Technology
+AU202100565,Emoefe Onome George,Male,400,B.Sc. Software Engineering
+AU202100567,ONYEMA OZIOMA  MERCY,Female,400,B.Sc. Biochemistry
+AU202100568,Emenike Denzel Dikachi,Male,400,B.Sc. Business Administration
+AU202100570,Ofili Okechukwu  Ikenna,Male,400,B.Sc. Mass Communication
+AU202100574,Afolabi  Boluwatife  Emmanuel,Male,400,B.Sc. Political Science
+AU202100575,Ufot Joy Ayomide,Female,400,B.Sc. Mass Communication
+AU202100576,AFOR OGHENETEJIRI PAUL,Male,400,B.Sc. Software Engineering
+AU202200579,ORJIEH RUTH CHIDINMA,Female,300,B.Sc. Accounting
+AU202200580,Adelaja  John  Oreoluwasubomi,Male,300,B.Sc. Accounting
+AU202200581,Madubuike  Chisom  G.,Female,300,B.A. Philosophy
+AU202200582,MBAEGBU ESTELLE  UJUNWA,Female,300,B.Sc. Accounting
+AU202200583,EGBUCHUNAM FLORENCE CHUKWUJINDU,Female,300,B.Sc. Accounting
+AU202200584,Olufeso Omowonuola  Atinuke,Female,300,B.Sc. Accounting
+AU202200585,igbinoba Chidera ESTHER,Female,300,B.Sc. Accounting
+AU202200586,Ugonwa Chimamanda Lucia,Female,300,B.Sc. Accounting
+AU202200587,Okoli Tochukwu  David,Male,300,B.Sc. Accounting
+AU202200588,Adeyera Ifeoluwa Anne,Female,400,B.Sc. Biochemistry
+AU202200589,iloba israel Fernandez,Male,300,B.Sc. Economics
+AU202200590,Akpan Silas  Moses,Male,300,B.Sc. Accounting
+AU202200591,Owolabi  Omokafe Anthonia,Female,300,B.Sc. Accounting
+AU202200592,Akitoye Augustine Aderogba,Male,300,B.Sc. Accounting
+AU202200593,Chigozie-Nmonwu Lumen-Maria Akudo,Female,300,B.Sc. Economics
+AU202200595,Kayode-Apampa  Omorinsola  Oluwayemisi,Female,300,B.Sc. Microbiology
+AU202200596,Okojie  Isedoa  Cecilia,Female,300,B.Sc. Economics
+AU202200597,Jimoh  Abubakar  Mayowa,Male,300,B.Sc. Economics
+AU202200598,Njoku Chimaobi Obinna,Male,300,B.Sc. Microbiology
+AU202200599,Uwah Joshua Jidechukwu,Male,300,B.Sc. Banking and Finance
+AU202200600,IGBOKWE SHARON-ANN CHIOMA,Female,300,B.Sc. Accounting
+AU202200601,OKOLOIGWE OLUEBUBE CLARA,Female,300,B.Sc. Accounting
+AU202200602,Obiekwe Jordan Zinachidi,Male,300,B.Sc. Accounting
+AU202200603,Obande  Vanessa  Agbenu,Female,300,B.Sc. Mass Communication
+AU202200604,Ekweozoh Chukwuma John,Male,300,B.Sc. Mass Communication
+AU202200605,Nwabuzor Ndubunma Immaculata,Female,300,B.Sc. Mass Communication
+AU202200606,Adebanjo Oluwatamilore Muiz,Male,300,B.Sc. Mass Communication
+AU202200607,MOLADE CHRISTINE  MOJISOLA,Female,300,B.Sc. Mass Communication
+AU202200608,Okorie Chinemerem Lucia,Female,300,B.Sc. Mass Communication
+AU202200609,Bassey Mary Andy,Female,300,B.Sc. Mass Communication
+AU202200610,Taiwo David Ayomide,Male,300,B.Sc. Mass Communication
+AU202200611,Aimankhu  Aroboinose  Theresa,Female,300,B.Sc. Mass Communication
+AU202200612,Chioba Adaobi Christiana,Female,300,B.Sc. Mass Communication
+AU202200613,Udokwu  Emmanuella  Chigozirim,Female,300,B.Sc. Mass Communication
+AU202200614,Ugo-Ogoke Chukwuadikamma,Female,300,B.Sc. Mass Communication
+AU202200615,SUBAIR  OLUWATOMISIN  ADEWALE,Male,300,B.Sc. Economics
+AU202200618,Nwokoro Angel Nkemdirim,Female,300,B.Sc. Political Science
+AU202200619,IFEKANDU CHIOMA TECULAR,Female,300,B.Sc. Political Science
+AU202200620,Nkemka Chibuike Daniel,Male,300,B.Sc. Political Science
+AU202200621,IOREMBER NGUEVESE MONICA,Female,300,B.Sc. Political Science
+AU202200622,Osemene Chukwunonso Emmanuel,Male,300,B.Sc. Political Science
+AU202200623,OLUFOWOBI MARTINS  QUWAM,Male,300,B.Sc. Mass Communication
+AU202200624,Anozie peters Somtochukwu Daniel,Male,300,B.Sc. Mass Communication
+AU202200625,Onugha Cindy Chiamaka,Female,300,B.A. English
+AU202200626,Olanusi Abimbola Mary-Benedicta,Female,300,B.A. English
+AU202200627,Abdulsalam Ibrahim Abiola,Male,300,B.A. English
+AU202200628,DIKE SOPHIA EBELE,Female,300,B.A. English
+AU202200630,Afolabi Oluwadamilola Ayobamidele,Female,300,B.Sc. Political Science
+AU202200631,Odogun Michael-Gabriel Akpevweoghene,Male,300,B.Sc. Software Engineering
+AU202200633,Okafor Mary-Judith Chimeremnma,Female,300,B.Sc. Software Engineering
+AU202200634,Monye Onyekachukwu Francis,Male,300,B.Sc. Software Engineering
+AU202200635,Nwachukwu Chukwudi Francis,Male,300,B.Sc. Software Engineering
+AU202200636,Okeke Cynthia Ezinne,Female,300,B.Sc. Software Engineering
+AU202200637,Udeh-Peters  Chinonso Samuel,Male,300,B.Sc. Software Engineering
+AU202200638,Momoh Oseahumen Gift,Female,300,B.Sc. Software Engineering
+AU202200639,Olanusi Oluwatimilehin Richard,Male,300,B.Sc. Software Engineering
+AU202200640,Asuquo  Jude Nduyeonong,Male,300,B.Sc. Software Engineering
+AU202200641,EZEANI CHIWETALU  CARL,Male,300,B.Sc. Software Engineering
+AU202200642,IGWEBIKE BENEDICT  CHISOM,Male,300,B.Sc. Software Engineering
+AU202200645,Nnam Marygold Cheluchi,Female,300,B.Sc. Computer Science
+AU202200646,Aderele Vincent  Fiyinfoluwa,Male,300,B.Sc. Computer Science
+AU202200647,chukwu snow chimerenka,Female,300,B.Sc. Computer Science
+AU202200648,NNAWIHE KELECHI RAWLINGS,Male,300,B.Sc. Computer Science
+AU202200649,ODU SAMUEL  CHUKWUNONSO,Male,300,B.Sc. Computer Science
+AU202200650,Osaade  Abraham  Oluwatobi,Male,300,B.Sc. Computer Science
+AU202200651,EKE ESTHER CHUBIYO-OJO,Female,300,B.Sc. Computer Science
+AU202200652,Okechukwu Chinedum  Charles,Male,300,B.Sc. Cyber Security
+AU202200653,Olumba Shaun Olisemeka,Male,300,B.Sc. Computer Science
+AU202200654,Nwaokolo Owen Priest,Male,300,B.Sc. Computer Science
+AU202200655,Okechukwu Confidence NNAEMEKA,Male,300,B.Sc. Computer Science
+AU202200657,Akpe Daniel Animpuye,Male,300,B.Sc. Computer Science
+AU202200658,OKOR KESIENA BENEDICT,Male,300,B.Sc. Computer Science
+AU202200659,Oruye Michael Kelechi,Male,300,B.Sc. Computer Science
+AU202200660,Ndigwe  Tobechukwu  Adrian,Male,300,B.Sc. Computer Science
+AU202200661,Igbanor Stefan Emmanuel Osikpemi,Male,300,B.Sc. Computer Science
+AU202200662,Agabi-Patrick Chierika  Michael,Male,300,B.Sc. Computer Science
+AU202200663,Nwankwo Chijindu Christopher,Male,300,B.Sc. Economics
+AU202200664,Obaji Onyinyechi Jennifer,Female,300,B.Sc. Biochemistry
+AU202200665,Ekere  Mfreke Udo,Male,300,B.Sc. Accounting
+AU202200666,EMEREUWA CHISOM JENNIFER,Female,300,B.Sc. Mass Communication
+AU202200667,Muolokwu Daniel Chisimdi,Male,300,B.Sc. Mass Communication
+AU202200668,Adeyera Andrea Iyanuoluwa,Female,300,B.Sc. Mass Communication
+AU202200669,Adegoke Oluwanifemi Jewel,Female,300,B.Sc. Software Engineering
+AU202200670,ighodaro omosefe Faith,Female,300,B.Sc. Computer Science
+AU202200671,AWODIYA MICHAEL OLATUNDE,Male,300,B.Sc. Computer Science
+AU202200672,Adeoye Oluwasijibomi  Lumiere,Female,300,B.Sc. Computer Science
+AU202200675,Madu Michael Emeka,Male,300,B.Sc. Computer Science
+AU202200676,Emeka-Ilozor Daniella Somtochukwu,Female,300,B.Sc. Computer Science
+AU202200679,Obibi Sharon Aruoriwo,Female,400,B.Sc. Political Science
+AU202200680,CHIGERE VICTOR UDECHUKWU,Male,300,B.Sc. Banking and Finance
+AU202200681,IWUCHUKWU ONYINYECHUKWU  JECINTA,Female,300,B.Sc. Accounting
+AU202200683,OWONARO  EREBI  PRINCESS,Female,300,B.Sc. Software Engineering
+AU202200684,Osinem Kamsiyochukwu Charles,Male,300,B.Sc. Software Engineering
+AU202200685,Mbajiorgu Chukwumerije  Brendan,Male,300,B.Sc. Software Engineering
+AU202200686,Nnadi Sochikaima Peter,Male,300,B.Sc. Software Engineering
+AU202200687,Okolo Otito  chinonyelum,Female,300,B.Sc. Software Engineering
+AU202200688,Uwagbai  Emmanuel Odinaka,Male,300,B.Sc. Information Technology
+AU202200689,EIGBIREMOLEN EBOSETALE JOSHUA,Male,300,B.Sc. Information Technology
+AU202200690,UGORJI RICHARD AKACHUKWU,Male,300,B.Sc. Computer Science
+AU202200691,Chibuzo  Somtochukwu Patrick,Male,300,B.Sc. Cyber Security
+AU202200692,EKWEKWU  CHUKWUNONSO  PASCAL,Male,300,B.Sc. Cyber Security
+AU202200693,Folayan  Zara Kemi,Female,300,B.Sc. Cyber Security
+AU202200694,Ebosele  Meshack  Omotoyosi,Male,300,B.Sc. Cyber Security
+AU202200695,Mmadu Livinus,Male,300,B.Sc. Computer Science
+AU202200696,FOELONG Minaan Temiloluwa,Female,300,B.A. English
+AU202200697,Oluwole Oluwatobiloba Obajuwon,Male,300,B.Sc. Computer Science
+AU202200699,osinowo Iteoluwakiisi Ayomide,Female,400,B.Sc. Computer Science
+AU202200700,Patrick Glory Peter,Male,400,B.Sc. Computer Science
+AU202200701,Opara  Divine-blessing Mmerichukwu,Male,400,B.Sc. Computer Science
+AU202200702,Ezeomah Daniella Imammachukwu,Female,300,B.A. English
+AU202200703,Ottun Rashidat Pedro,Female,300,B.Sc. Microbiology
+AU202200704,Afolabi Oyindamola,Female,300,B.Sc. Microbiology
+AU202200705,OKORO EMMANUELLA CHINONYE,Female,300,B.Sc. Microbiology
+AU202200706,Oladejo  Daniel Ayomikun,Male,300,B.Sc. Business Administration
+AU202200707,odudimu oluwaseun Chioma,Female,300,B.Sc. Business Administration
+AU202200708,Omeike Wendy  chidinma,Female,300,B.Sc. Business Administration
+AU202200709,ADEBAYO RUTH IBUKUN,Female,300,B.Sc. Business Administration
+AU202200710,AMROVHE BENEDICTA,Female,300,B.Sc. Business Administration
+AU202200711,okonkwo clement chukwuemeka,Male,300,B.Sc. Business Administration
+AU202200712,Nwaigwe Vincent Uchechukwu,Male,300,B.Sc. Business Administration
+AU202200713,Ewherido  Oghenemine  Joseph,Male,300,B.Sc. Business Administration
+AU202200714,ANASIUDU  EMMANUEL  CHIMEZIE,Male,300,B.Sc. Business Administration
+AU202200715,Onyeneke  Osinachi  Jessica,Female,300,B.Sc. Accounting
+AU202200716,Okpu Reginald Ruona,Male,300,B.Sc. Business Administration
+AU202200717,IFEKANDU CHUKWUDOZIE VINCENT,Male,300,B.Sc. Business Administration
+AU202200718,Jp Ugo Johnpaul,Male,300,B.Sc. Business Administration
+AU202200719,Anozie-Peters Nnamdi Peter,Male,300,B.Sc. Business Administration
+AU202200720,Osemeke Macdonald Kosisochukwu,Male,300,B.Sc. Business Administration
+AU202200721,Owens Gerald Chiemerie,Male,300,B.Sc. Business Administration
+AU202200723,ojimba  chukwu ebuka paulinus,Male,300,B.Sc. Accounting
+AU202200724,Abonyi Emmanuel Chinedu,Male,300,B.Sc. Accounting
+AU202200725,Dike Onyinyechi  Vanessa,Female,300,B.Sc. Business Administration
+AU202200726,Efosa Imiefan  pedro,Male,300,B.Sc. Microbiology
+AU202200727,ISUNUOYA OHIVONMEN CHIMAEZE,Male,300,B.Sc. Biotechnology
+AU202200728,Adeolu Victoria Ibukunoluwa,Female,300,B.Sc. Biotechnology
+AU202200729,JIBUNOH CHINONSO OSASERE,Female,300,B.Sc. Political Science
+AU202200730,Sotinrin  Tessa Oyindamola,Female,300,B.Sc. Political Science
+AU202200731,Anigbogu  Kosisochukwu  Annabelle,Female,400,B.Sc. Mass Communication
+AU202200732,Chukwuegbunam  Lydia Ekpereamaka,Female,300,B.Sc. Political Science
+AU202200733,Paul-Ebiai Cara Ufoma,Female,300,B.Sc. Cyber Security
+AU202200734,EIGBIREMOLEN ESEOSE FELICITY,Female,400,B.Sc. Mass Communication
+AU202200735,Emeh Uchenna Francis,Male,300,B.Sc. Software Engineering
+AU202200737,Maduemezia  Francis-Xavier  Chukwubuikem,Male,300,B.Sc. Software Engineering
+AU202200738,Echelibe Nathaniel Chinetam,Male,300,B.Sc. Software Engineering
+AU202200739,Ebeye Kendis Isioma,Male,300,B.Sc. Software Engineering
+AU202200740,Enemuo Michael Nwachukwu,Male,300,B.Sc. Software Engineering
+AU202200741,Adigha Tamunoebi Emmanuel,Male,300,B.Sc. Software Engineering
+AU202200742,Ezenwaka  Mark Osinachi,Male,300,B.Sc. Computer Science
+AU202200743,IGWEBUIKE  TOCHUKWU  BENJAMIN,Male,300,B.Sc. Computer Science
+AU202200744,IRABOR VICTOR KOSEKU KOSEKU,Male,300,B.Sc. Computer Science
+AU202200745,EWHERIDO OGHENEMEGA FERDINAND,Male,300,B.Sc. Computer Science
+AU202200746,AGADA TOCHUKWU ERIC,Male,300,B.Sc. Computer Science
+AU202200747,Okeke Cornelius Emeka,Male,300,B.Sc. Computer Science
+AU202200748,Babarinsa Feyifunmi Alake,Female,300,B.Sc. Computer Science
+AU202200749,Ugwumba Nwoye Michael Oderra,Male,300,B.Sc. Computer Science
+AU202200750,ugwu Emmanuel Uchenna,Male,300,B.Sc. Information Technology
+AU202200751,MECHA CHUKWUEMEKA  UDO,Male,300,B.Sc. Computer Science
+AU202200752,Obichere Nwamaka  Anthonia,Female,400,B.Sc. Software Engineering
+AU202200753,Okojie Eromosele Samuel,Male,400,B.Sc. Software Engineering
+AU202200754,Anazodo Chukwudubem Samson,Male,300,B.Sc. Information Technology
+AU202200755,Analikwu  Donald  onyekachi,Male,300,B.Sc. Mass Communication
+AU202200756,EFEKODO Dominion Efeoghene,Male,300,B.Sc. Mass Communication
+AU202200757,YOHANNA ELIZABETH JOY,Female,300,B.Sc. Mass Communication
+AU202200758,Muojekwu Paschal  Chukwunonso,Male,300,B.A. Philosophy
+AU202200759,Ezekude Chidinma  Emmanuella,Female,300,B.Sc. Computer Science
+AU202200760,Solomon Lina Ene,Female,300,B.Sc. Software Engineering
+AU202200761,Ejiofobiri Ozioma Sonia,Female,300,B.Sc. Software Engineering
+AU202200762,EJIOFOR KOSISOCHUKWU Preciousmary,Female,400,B.Sc. Business Administration
+AU202200763,IHUOMAH JOSEPH UGOCHUKWU,Male,300,B.Sc. Mass Communication
+AU202200764,Macaulay Wisdom Eromosele,Male,300,B.Sc. Mass Communication
+AU202200765,Salami  Ibukunoluwa  Gift,Female,300,B.Sc. Software Engineering
+AU202200766,Lennon Adaora  Michelle,Female,300,B.Sc. Computer Science
+AU202200767,CHIOKE  DABELECHUKWU  ANDRIL,Male,300,B.Sc. Computer Science
+AU202200768,IRABOR valerie Masima,Female,300,B.Sc. Biochemistry
+AU202200770,Etafo Gabriella Eraisomi,Female,300,B.Sc. Microbiology
+AU202200771,Njoku Favour Nnenna,Female,300,B.Sc. Biotechnology
+AU202200772,Wale-Vincent Chinenye  Ivy,Female,300,B.Sc. Mass Communication
+AU202200773,Ogbu Chioma ELIZABETH,Female,300,B.Sc. Mass Communication
+AU202200774,Agwu Chinoyelum Diane,Female,300,B.Sc. Business Administration
+AU202200775,"Edeh Uchenna  Mofetoluwa, Joel",Male,300,B.Sc. Business Administration
+AU202200776,Okokwu Onyekachi lois,Female,300,B.Sc. Computer Science
+AU202200777,CHIAKWA HELEN KOSISOCHUKWU,Female,300,B.Sc. Banking and Finance
+AU202200778,Nwagbo  Chijindu  Francis,Male,300,B.Sc. Software Engineering
+AU202200779,Ayoola  mariam durojaiye Motunrayo,Female,400,B.Sc. Biochemistry
+AU202200780,anenih jordan Ehizojie,Male,300,B.Sc. Business Administration
+AU202200781,Ikwueme Ifeoma Michaela,Female,300,B.A. Philosophy
+AU202200782,Okoduwa Valiant Ehizobhen,Female,300,B.Sc. Mass Communication
+AU202200783,UZOH GREGORY CHIMELUMOGO,Male,300,B.Sc. Mass Communication
+AU202200784,Chude Emeka Emmanuel,Male,300,B.Sc. Mass Communication
+AU202200785,Okorodudu  Victor  Efe,Male,300,B.Sc. Political Science
+AU202200786,Nwachukwu Bruno Chidubem,Male,300,B.Sc. Computer Science
+AU202200787,Ibikunle Omodolapo  Abdulmalik,Male,300,B.Sc. Computer Science
+AU202200788,Itua-Oboh Peter Osakhuemhen,Male,300,B.Sc. Computer Science
+AU202200790,AKINSETE MOSIMILOLUWA  OPEMIPO,Female,300,B.Sc. Political Science
+AU202200791,Abowonda  Faithwin  Brains,Female,400,B.Sc. Banking and Finance
+AU202200792,Ezeani  Jessica  Adaugo,Female,300,B.Sc. Political Science
+AU202200793,Obi Kamsi Brenda,Female,300,B.Sc. Mass Communication
+AU202200794,Jack  Biobele Beatrice  Angel,Female,300,B.Sc. Mass Communication
+AU202200796,Ipaye Oluwaferanmi Ayobami,Male,400,B.Sc. Software Engineering
+AU202200797,Onwuatuelo  Chisom Esther,Female,300,B.A. English
+AU202200798,Chukwurah Edmund Chukwuma,Male,300,B.Sc. Mathematics
+AU202200799,Nwizu Ihechukwu  David,Male,300,B.Sc. Business Administration
+AU202200801,Onoabhagbe Mosadoluwa Ehijele,Male,300,B.Sc. Business Administration
+AU202200802,Akunyili  Adaobi Kate,Female,400,B.Sc. Biochemistry
+AU202200803,Stephen Stephanie Chiadikobi,Female,300,B.Sc. Mass Communication
+AU202200804,ONEBUNNE MMESOMACHUKWU NORAH,Female,300,B.Sc. Mass Communication
+AU202200805,OKEIYI MUNACHIMSO  MITCHELLE,Female,300,B.Sc. Mass Communication
+AU202200806,Adeosun Rosemary Eyitola,Female,400,B.Sc. Accounting
+AU202200807,Ogun Omodesire samuel,Male,400,B.Sc. Software Engineering
+AU202200808,Ajeh David Agaba,Male,300,B.Sc. Software Engineering
+AU202200809,Nworgu Chizitere  Kenny,Male,300,B.Sc. Software Engineering
+AU202200810,Okpala Ijeoma Christiana,Female,300,B.Sc. Software Engineering
+AU202200811,Okochi Precious Ozioma,Female,300,B.Sc. Computer Science
+AU202200813,Onuora Kenechukwu  Tony,Male,300,B.Sc. Computer Science
+AU202200814,Ifejika Ijeanuli Joan,Female,300,B.Sc. Computer Science
+AU202200815,NWADIKE AMARACHI RUTH,Female,300,B.Sc. Computer Science
+AU202200816,Ugbodaga  Confidence  Ochuwa,Female,300,B.Sc. Microbiology
+AU202200817,Chigboh Miracle Ukamaka,Female,300,B.Sc. Mass Communication
+AU202200818,Chiazor Charles Uchechukwu,Male,300,B.Sc. Business Administration
+AU202200819,Igwe Blessing PROMISE,Female,300,B.Sc. Business Administration
+AU202200820,Adebayo Misturah  Adunni,Female,300,B.Sc. Mass Communication
+AU202200821,Azih Nneze Rosemary,Female,300,B.Sc. Mass Communication
+AU202200822,Ayotunde  Mark Joshua  Ibukunoluwa,Male,300,B.Sc. Economics
+AU202200823,innocent Genevieve Munachi,Female,300,B.Sc. Biochemistry
+AU202200824,Egbuna Amarachi Joanna,Female,300,B.Sc. Computer Science
+AU202200825,Iloegbunam  Alexander  Chukwuebuka,Male,300,B.Sc. Computer Science
+AU202200826,Ejiofor Chinonso Philip,Male,300,B.Sc. Software Engineering
+AU202200827,Umahi Chinedum Albert,Male,300,B.Sc. Software Engineering
+AU202200828,Houetin  Pires Confidence,Male,200,B.A. Philosophy
+AU202200829,Madubuike Nelson Onyedikachi,Male,400,B.Sc. Computer Science
+AU202200830,Sobowale Wonuola Devin,Male,400,B.Sc. Software Engineering
+AU202200831,NDUBUISI CHUKWUEBUKA DESMOND,Male,300,B.Sc. Software Engineering
+AU202200834,Stephen Kamsiyochukwu Princewill,Male,300,B.Sc. Computer Science
+AU202200835,NEBE Chinonyelum Chizim,Male,300,B.Sc. Mass Communication
+AU202300836,Elebeonu Chukwudinma Rosemary,Female,200,B.NSc. Nursing Science
+AU202300837,Okeke Chidera micheal,Male,200,B.Sc. Biotechnology
+AU202300838,ifeanyi amaka cintia,Female,200,B.Sc. Mass Communication
+AU202300839,Omowhara Divine Ejiro,Female,200,B.A. Philosophy
+AU202300840,Agupusi Ebubechukwu Kamdirichukwu,Female,200,B.A. Philosophy
+AU202300841,Agbu Victoria  Hassana,Female,200,B.Sc. Microbiology
+AU202300842,Gory Terry Oghenetejiri,Male,200,B.Sc. Political Science
+AU202300843,Nnanweobi Chidubem Godwin,Male,200,B.Sc. Political Science
+AU202300845,Uchebike Godsfavour Udokamma,Male,200,B.Sc. Political Science
+AU202300846,Madu Clinton  Onyekachi,Male,200,B.Sc. Computer Science
+AU202300847,Okereke  Chibueze Divine,Male,200,B.Sc. Computer Science
+AU202300848,Ndinwa  Ifechukwude Philip,Male,200,B.Sc. Computer Science
+AU202300849,Iriogbe Emmanuel uwagbale,Male,200,B.Sc. Computer Science
+AU202300850,Adenuga Sharon Iroayo,Female,200,B.Sc. Mass Communication
+AU202300851,Martins Tuviya Onakororin,Female,200,B.Sc. Mass Communication
+AU202300852,UGOJE MICHELLE OREZIMENA,Female,200,B.Sc. Mass Communication
+AU202300853,KEKEREOWO BASIT AYINDE,Male,200,B.Sc. Mass Communication
+AU202300854,Nwadike Chiagozie  Olivia,Female,200,B.Sc. Mass Communication
+AU202300855,EZEANOWI CYNTHIA AMARACHI,Female,100,B.Sc. Mass Communication
+AU202300856,Uzuegbu Emmanuella Mmesoma,Female,200,B.Sc. Mass Communication
+AU202300857,Obi Lauretta Chioma,Female,200,B.Sc. Mass Communication
+AU202300858,Okoh-Esene  Samantha  Eghonghon,Female,200,B.Sc. Mass Communication
+AU202300859,Orji KOSISOCHUKWU  SAMUEL,Male,200,B.Sc. Mass Communication
+AU202300860,Henry Bridget Chinwendu,Female,200,B.Sc. Mass Communication
+AU202300861,Ukozor Stephanie  Ogechi,Female,200,B.Sc. Mass Communication
+AU202300862,Odiong Paula JOSEPH,Female,200,B.Sc. Mass Communication
+AU202300863,Ndubisi  Chukwudera  Stephanie,Female,200,B.A. Philosophy
+AU202300864,Ige Abimbola JESUTOFUNMI,Female,200,B.NSc. Nursing Science
+AU202300865,Eko Gloria Becky,Female,200,B.Sc. Biotechnology
+AU202300866,Precious Glad Oghenerunor,Female,300,B.Sc. Mass Communication
+AU202300867,Gere Samantha Boluwatife Oladotun,Female,200,B.Sc. Computer Science
+AU202300868,Azubuike-imoh Chinedu Andrew,Male,200,B.Sc. Information Technology
+AU202300869,Nwabueze Chidike Reuel,Male,200,B.Sc. Information Technology
+AU202300870,KIM-SOLOMON GODSPOWER RAPHAEL,Male,200,B.Sc. Information Technology
+AU202300871,Uzor-Okafor   Chukwudumebi Nature,Male,200,B.Sc. Information Technology
+AU202300872,Ifemeje Chidera walter,Male,200,B.Sc. Information Technology
+AU202300873,Okonkwo  Nneamaka Stephanie,Female,200,B.Sc. Computer Science
+AU202300874,ARINZE  ONYINYECHUKWU  JUDITH,Female,200,B.Sc. Computer Science
+AU202300875,EZEAMOBI  CHINMERI  FRANKLIN,Male,200,B.Sc. Computer Science
+AU202300876,CHUKWU BENEDICTA CHINENYE,Female,200,B.Sc. Computer Science
+AU202300877,Okwudiri Kamsiriochukwu Ifechukwude,Female,200,B.Sc. Computer Science
+AU202300878,Okorie  Nicole Chidiuto,Female,200,B.Sc. Computer Science
+AU202300879,UFOH KOSISOCHUKWU  FRANCIS,Male,200,B.Sc. Computer Science
+AU202300880,ITAI OYAREGBA JOHN,Male,200,B.Sc. Computer Science
+AU202300881,Okoli Chukwuebuka Ugochukwu,Male,200,B.Sc. Computer Science
+AU202300882,Okoh Eseoghene  Catherine-Maria Ritsepile,Female,200,B.Sc. Computer Science
+AU202300883,Okoli Chibuike Nnanyelugo,Male,200,B.Sc. Computer Science
+AU202300884,Okoye Austine Ugochukwu,Male,200,B.Sc. Computer Science
+AU202300885,Adejoh  Elvis  Adole,Male,200,B.Sc. Computer Science
+AU202300886,IKE CHARLES ONYEKA,Male,200,B.Sc. Computer Science
+AU202300887,EGWIM CHISOM   JEFFREY,Male,200,B.Sc. Computer Science
+AU202300888,Akinlade Akinola Daniel,Male,200,B.Sc. Computer Science
+AU202300889,EMMANUEL-OGON David Nten-Chinweike,Male,200,B.Sc. Computer Science
+AU202300890,Chukwukere  Joshua  Chidubem,Male,200,B.Sc. Software Engineering
+AU202300891,Orakwue Christian Onyedika,Male,200,B.Sc. Software Engineering
+AU202300892,Adebajo Omowonuola Sharon,Male,200,B.Sc. Software Engineering
+AU202300893,Iloba Kosi Martins,Male,200,B.Sc. Software Engineering
+AU202300894,Okoro  Erica  Ifechukwu,Female,200,B.Sc. Software Engineering
+AU202300895,Folami Opemipo Ayomaria,Female,200,B.Sc. Software Engineering
+AU202300896,Agbaire  Oghenerukevwe Anthonia,Female,200,B.Sc. Software Engineering
+AU202300897,IGBOZURIKE KIZITO CHIBUIKE,Male,200,B.Sc. Software Engineering
+AU202300898,Kalu Clinton  Agofure,Male,200,B.Sc. Cyber Security
+AU202300899,Ohaeri Munachimso Henry,Male,200,B.Sc. Computer Science
+AU202300900,Babalola  Folahan  olasubomi,Male,200,B.Sc. Cyber Security
+AU202300901,ADEOYE EPHRAIM ADETOMIWA,Male,200,B.Sc. Cyber Security
+AU202300902,Onyia Chukwubuikem  Emmanuel,Male,200,B.Sc. Software Engineering
+AU202300904,Anyoha Giovanni  Chimezie,Male,200,B.Sc. Software Engineering
+AU202300905,Jide-Owoeye Korewa  Ghislaine,Female,200,B.Sc. Software Engineering
+AU202300906,Ekwunife Henry Chidubem,Male,200,B.Sc. Software Engineering
+AU202300907,Okpara Ginikachukwu Alexandra,Female,200,B.Sc. Software Engineering
+AU202300908,Jamgbadi  Daniel Olanrewaju,Male,200,B.Sc. Software Engineering
+AU202300909,Akpan Abasiono Olaoluwagbemiro,Male,200,B.Sc. Software Engineering
+AU202300910,Ezenwosu  Chidera  Cyprian,Male,200,B.Sc. Software Engineering
+AU202300911,PETERS CHINECHEREM EMMANUEL,Male,200,B.Sc. Software Engineering
+AU202300912,Bobmanuel Victor Tamunotonye,Male,200,B.Sc. Software Engineering
+AU202300913,ETOKAKPAN JOSHUA MFONOBONG,Male,200,B.Sc. Information Technology
+AU202300914,Ebeku  Victor  chisom,Male,200,B.Sc. Information Technology
+AU202300915,Udeze  Somadina  Chelsea,Male,200,B.Sc. Cyber Security
+AU202300916,Okoh-Esene Sammy-Edward Ebosereme,Male,200,B.Sc. Computer Science
+AU202300917,Ntan Elijah Ekpa,Male,200,B.Sc. Computer Science
+AU202300918,AKUDE NWABUEZE  THOBANI,Male,200,B.Sc. Information Technology
+AU202300919,Udemeh Benedict Afamefuna,Male,200,B.Sc. Software Engineering
+AU202300920,Okechukwu Bede-Manuel Okechukwu,Male,200,B.Sc. Software Engineering
+AU202300922,Ezenwa  Chioma Benedicta,Female,200,B.NSc. Nursing Science
+AU202300923,Ezeamulunamma  Chisom  Favour,Female,200,B.NSc. Nursing Science
+AU202300924,Ibekie Vivian Chisimdi,Female,200,B.NSc. Nursing Science
+AU202300925,ALADI BELOVED  CHINECHEREM,Female,200,B.NSc. Nursing Science
+AU202300926,Nwabueze  Excellent  Nwachinaemerem,Female,200,B.NSc. Nursing Science
+AU202300927,Okafor Esther Awele,Female,200,B.NSc. Nursing Science
+AU202300928,Maduemezia  Winifred Chukwufumnanya,Female,200,B.NSc. Nursing Science
+AU202300929,Oluwatoyin Funmilayo Balikis,Female,200,B.NSc. Nursing Science
+AU202300930,PHILIP-OGBU NNEDIMMA Vanessa,Female,200,B.NSc. Nursing Science
+AU202300931,UYANNA IFEOMA VIVIAN,Female,200,B.NSc. Nursing Science
+AU202300932,EKECHUKWU PAULET KELECHI,Female,200,B.NSc. Nursing Science
+AU202300933,Okafor Ifechukwu  Sylvester,Male,200,B.Sc. Political Science
+AU202300934,Ikemba Godsgift Chimbuchi,Male,200,B.Sc. Political Science
+AU202300935,Nwankwo  Chioma  Nene oguguamobi,Female,200,B.Sc. Microbiology
+AU202300936,Owen Michael  Efe,Male,200,B.Sc. Political Science
+AU202300937,Anyanwu Chinonyerem Glory,Female,200,B.NSc. Nursing Science
+AU202300938,ANAELE KAMSIYOCHI  CHRISTINE,Female,200,B.NSc. Nursing Science
+AU202300939,Offorzor Kamsiyochukwu Rita,Female,200,B.NSc. Nursing Science
+AU202300940,Ogbuike Mmasicukwu Desmond,Male,200,B.Sc. Information Technology
+AU202300942,ANIZOR CHIEMELE  MICHAEL,Male,200,B.Sc. Information Technology
+AU202300943,Iwegbuna Anthony Chukwudubem,Male,200,B.Sc. Information Technology
+AU202300945,Ezeigbo Daniella Kamsiriochukwu,Female,200,B.Sc. Computer Science
+AU202300946,Nwankwor  Emmanuel  Chukwuka,Male,200,B.NSc. Nursing Science
+AU202300947,Nwabueze  Sophia  Chidinma,Female,200,B.NSc. Nursing Science
+AU202300948,Onyeanusi Chinaza  Angelica,Female,200,B.NSc. Nursing Science
+AU202300949,Ewi Oreoluwa Providence,Female,200,B.NSc. Nursing Science
+AU202300950,NNAJIOFOR  DIVINE CHINAZOM,Female,300,B.Sc. Mass Communication
+AU202300951,Oguamanam Beatrice  Nmesomachi,Female,300,B.Sc. Mass Communication
+AU202300952,Chi-Ukpai  Ukatachi Meshach,Male,200,B.NSc. Nursing Science
+AU202300953,Olofe Oluwanifemi Promise,Female,200,B.NSc. Nursing Science
+AU202300954,Ezeama Morgan CHINAZA,Male,200,B.Sc. Cyber Security
+AU202300955,Amachree Sokipirim Gabriel,Male,200,B.Sc. Cyber Security
+AU202300956,EMOEFE  Kesiena  Pearl,Female,200,B.Sc. Cyber Security
+AU202300957,Uwakwe Oluchi  Judith,Female,200,B.NSc. Nursing Science
+AU202300958,OHAEME AMARACHUKWU RUTH,Female,200,B.NSc. Nursing Science
+AU202300959,Omolayole Anjolaoluwa  Naomi,Female,200,B.NSc. Nursing Science
+AU202300960,Adebajo  Omorola  Shekinah,Female,200,B.NSc. Nursing Science
+AU202300961,Pius Quincy  Chukwuma,Male,200,B.Sc. Cyber Security
+AU202300962,Itua-oboh Emmanuel  osas,Male,200,B.Sc. Information Technology
+AU202300963,Nnacheta  Tobenna  Eric,Male,200,B.Sc. Computer Science
+AU202300964,Udegbe Ehidiamen David,Male,200,B.Sc. Computer Science
+AU202300966,Jimoh Amirah abolanle,Female,300,B.Sc. Business Administration
+AU202300967,Okubanjo Oluwatobi  Jonathan,Male,300,B.Sc. Banking and Finance
+AU202300968,Iwunze Daniel Chukwuma,Male,200,B.Eng. Computer Engineering
+AU202300969,Igwe Destiny  Chukwuebuka,Male,200,B.Eng. Computer Engineering
+AU202300970,Muogbo  Israel Chukwuemeka,Male,200,B.Eng. Computer Engineering
+AU202300971,EBIRIM ONYEKACHI GODSWILL,Male,200,B.Eng. Computer Engineering
+AU202300972,Iredia David Osagie,Male,200,B.Eng. Computer Engineering
+AU202300973,Tony-Eke Ifechukwu  Favour,Female,200,B.Sc. Political Science
+AU202300974,NWANDU JOYCE  ANWULIKA,Female,200,B.Sc. Business Administration
+AU202300975,Akpabio Henry Emeka,Male,200,B.Sc. Political Science
+AU202300976,Ozegbe-Eugene oghenefejiro  Perpetual,Female,200,B.A. English
+AU202300977,Apla James Victoria  Wofia,Female,200,B.A. English
+AU202300978,OKUNOR ZANE  OLUCHUKWU,Male,200,B.Sc. Mass Communication
+AU202300979,UCHENDU ONYINYE MARYJANE,Female,200,B.Sc. Mass Communication
+AU202300980,Ariyo Oluwajomiloju  Susan,Female,200,B.Sc. Mass Communication
+AU202300981,Emma-Okoro Anthonia Chinenyenwa,Female,200,B.Sc. Mass Communication
+AU202300982,Ibeh Augustine Chukwudalu,Male,200,B.Sc. Mass Communication
+AU202300983,Mbadi Jessica Chizaram,Female,200,B.Sc. Mass Communication
+AU202300984,Okpara Ngbo Forte Chinasa,Male,200,B.Sc. Information Technology
+AU202300985,IBITOYE OLUWATOYOSI  JOSHUA,Male,200,B.Sc. Information Technology
+AU202300986,Uwenhon Chimdalu Sonia,Female,200,B.Sc. Accounting
+AU202300987,AINA ISRAEL  AYOMIDE,Male,200,B.NSc. Nursing Science
+AU202300988,John - Awa Zipporah  Chinemerem,Female,200,B.NSc. Nursing Science
+AU202300989,Ihewunezi Agatha Chinemerem,Female,200,B.Sc. Accounting
+AU202300990,Ajekigbe felicia Adebusayo,Female,200,B.Sc. Accounting
+AU202300991,Atoe-John Emmanuel Eguavon,Male,200,B.Sc. Accounting
+AU202300992,Okonkwo  Felix  Chibuike,Male,200,B.Sc. Accounting
+AU202300993,AMOLO CHRISTOPHER KOSISOCHUKWU,Male,200,B.Sc. Accounting
+AU202300994,Anyanwu Anne  Ngozichukwu,Female,200,B.Sc. Accounting
+AU202300995,Okhihan Samuel Obose,Male,200,B.Sc. Accounting
+AU202300996,Ezegbudo Chukwubuikem kingsley,Male,200,B.Sc. Accounting
+AU202300997,Felix Marvellous James,Male,200,B.Sc. Accounting
+AU202300998,ONONEZE  Ijeoma Jennifer,Female,200,B.Sc. Accounting
+AU202300999,Etienne Gbemisola Alice,Female,200,B.Sc. Accounting
+AU202301000,Obinodu Christabel Ndidi,Female,200,B.Sc. Accounting
+AU202301001,IBIDAPO  EMMANUEL  ILERIAYO,Male,200,B.Sc. Accounting
+AU202301002,Nneji Chiamaka Janet,Female,200,B.Sc. Accounting
+AU202301003,NJURU MCDONALD CHIGOZIRIM,Male,200,B.Sc. Accounting
+AU202301004,Adeshina  Favour  Chidindu,Male,200,B.Sc. Accounting
+AU202301005,Obinna Eunice Chioma,Female,200,B.Sc. Accounting
+AU202301006,ADESOJI TENIOLA AYOMIKUN IFEOLUWA,Female,200,B.Sc. Physics
+AU202301007,Chi-Ukpai Chimdiomenka Abednego,Male,200,B.Sc. Computer Science
+AU202301008,ANOZIE SOMTOCHUKWU CHIDINKA,Male,200,B.Sc. Computer Science
+AU202301009,Adeka Eboh Alexandria,Female,200,B.Sc. Mass Communication
+AU202301010,Amos Geraldine Ashezi,Female,200,B.Sc. Mass Communication
+AU202301011,Okoye Oluoma Maureen,Female,200,B.Sc. Mass Communication
+AU202301012,Ezema Chidera Emmanuel,Male,300,B.Sc. Accounting
+AU202301013,Ajayi Olufolajimi Joshua,Male,300,B.Sc. Software Engineering
+AU202301014,Osaluwe  Kingsley  Chukwuwike,Male,300,B.Sc. Cyber Security
+AU202301015,UZOAMAKA CHUKWUBUOKEM Vincent,Male,300,B.Sc. Cyber Security
+AU202301016,Ejike   Chisom Mariam,Female,200,B.Sc. Microbiology
+AU202301017,Henry-Okere Emmanuella Chigozirim,Female,200,B.Sc. Microbiology
+AU202301018,Nlebemuo Augustus Onyedikachukwu,Male,200,B.Sc. Accounting
+AU202301019,Oladipupo sofiyah Ajoke,Female,200,B.Sc. Economics
+AU202301020,Onyeji Chukwunonso Mikel,Male,200,B.Sc. Economics
+AU202301021,ECHEFU CHIMDI REGINALD,Male,200,B.Sc. Economics
+AU202301022,Ndulue Frances Ifeoma,Female,200,B.Sc. Economics
+AU202301023,OKECHUKWU NEWMAN NDUBUISI,Male,200,B.Sc. Economics
+AU202301025,Mbanefo Ngozi Josephine,Female,200,B.Sc. Economics
+AU202301026,Mmaduagwu Kamsiyochukwu philip neri,Male,200,B.Sc. Mass Communication
+AU202301027,Onuoha Amarachukwu Chiemerie,Male,200,B.Sc. Software Engineering
+AU202301028,Okere Lotanna Micheal,Male,200,B.Sc. Political Science
+AU202301029,igbe melvin tochukwu,Male,200,B.Sc. Computer Science
+AU202301030,Etuk Benjamin Uduak,Male,200,B.Sc. Cyber Security
+AU202301031,Onwuaduegbo  Nnamdi victor,Male,200,B.Sc. Accounting
+AU202301032,Igbe Kelvin Uchechukwu,Male,200,B.Sc. Microbiology
+AU202301034,Mark Daniel Ugochukwu,Male,200,B.Sc. Cyber Security
+AU202301035,Alagbaoso Kelvin Chimaobim,Male,300,B.Sc. Computer Science
+AU202301036,Oshagbor Michael Ogochukwu,Male,300,B.Sc. Computer Science
+AU202301037,Togo Christian Ereshe,Male,200,B.Sc. Information Technology
+AU202301038,Iwegbuna  Sylvester  Chukwubuikem,Male,300,B.Sc. Software Engineering
+AU202301040,EMENGO VIVIAN OBIANUJU,Female,200,B.A. English
+AU202301041,Anjorin  Oyindamola  Janet,Female,200,B.A. English
+AU202301042,Momoh Amira Omotefe,Female,200,B.A. English
+AU202301043,Nnadi Chimaobi Christian,Male,200,B.A. English
+AU202301044,ILOBA CHINWE SYLVIA,Female,200,B.NSc. Nursing Science
+AU202301045,Obele Chinaza  Florence,Female,200,B.NSc. Nursing Science
+AU202301046,Coker Eniola Mercy,Female,200,B.NSc. Nursing Science
+AU202301047,Agwu Chioma  Maria - Joseph,Female,200,B.NSc. Nursing Science
+AU202301048,Madueke Adaobi  Vivian,Female,200,B.NSc. Nursing Science
+AU202301049,Achilike Chinedu Bismark,Male,300,B.Sc. Biochemistry
+AU202301050,Ifemeje  Somtochukwu  princess,Female,200,B.A. English
+AU202301051,Obianuka Esther Oluchi,Female,200,B.A. English
+AU202301052,IFEBUNSO FRANCIS KOSISOCHUKWU,Male,200,B.A. English
+AU202301053,Aliche Godswill  Ikechukwu,Male,200,B.NSc. Nursing Science
+AU202301054,Etuk David Uduak,Male,300,B.Sc. Computer Science
+AU202301055,Odikpo Nzubechukwu jesse,Male,300,B.Sc. Software Engineering
+AU202301056,Igwe Chizaram jessica,Female,300,B.Sc. Mass Communication
+AU202301057,ODUM Emmanuel  Azuka,Male,200,B.Sc. Information Technology
+AU202301058,Egbuemike Francis  Chinecherem,Male,200,B.Sc. Biochemistry
+AU202301059,SIMON OLOCHE EMMANUEL,Male,200,B.Sc. Business Administration
+AU202301060,Gere Serena  Oghenetegiri,Female,200,B.Sc. Business Administration
+AU202301061,Okponung  Naomi Nse,Female,200,B.Sc. Business Administration
+AU202301062,Nlebemuo Augustine Onyekachukwu,Male,200,B.Sc. Business Administration
+AU202301063,CHIEDU ANNE CHIAMAKA,Female,200,B.Sc. Business Administration
+AU202301064,Okeke Jordan  Chimdindu,Male,200,B.Sc. Business Administration
+AU202301065,ANABUIKE CHUKWUCHIDOZIE EMMANUEL,Male,200,B.Sc. Business Administration
+AU202301066,Yerima Zaara,Female,200,B.Sc. Business Administration
+AU202301067,Ezomo Craig Daniel,Male,200,B.Sc. Business Administration
+AU202301068,Anyaegbuna Chineze Anulika Uchenna,Female,200,B.Sc. Business Administration
+AU202301069,Bello Amir Olaoluwa,Male,200,B.Sc. Computer Science
+AU202301070,Okpoko Emmanuella Chidera,Female,300,B.Sc. Economics
+AU202301071,Nneji Chioma -,Female,300,B.Sc. Economics
+AU202301072,Ibezim Angel chizetere,Female,300,B.Sc. Business Administration
+AU202301073,Maduka  Samuel  Chisom,Male,200,B.Sc. Microbiology
+AU202301074,Bankole Oluwadunminminu gift,Female,200,B.NSc. Nursing Science
+AU202301075,Alumona Ezinne Vanessa,Female,200,B.NSc. Nursing Science
+AU202301076,Osiboko Wealth -,Female,200,B.Sc. Business Administration
+AU202301077,Bamgbose Simon Adetokunbo,Male,200,B.Sc. Business Administration
+AU202301079,Odikpo  Chukwukadiebube Jethro,Male,200,B.Sc. Business Administration
+AU202301080,Oseghale Caryn Osehotue,Female,200,B.Sc. Mass Communication
+AU202301081,Bosah Frank Chike,Male,200,B.Sc. Mass Communication
+AU202301082,Ogedegbe Excel Omisiri,Female,200,B.NSc. Nursing Science
+AU202301083,Chukwuma Chisom Mary,Female,200,B.NSc. Nursing Science
+AU202301085,Quadry Harafat Yoyinsola,Female,200,B.NSc. Nursing Science
+AU202301086,Oshokha-Ethuakhor Omoyemhe Ivy,Female,200,B.Sc. Software Engineering
+AU202301087,AMALU EMMANUEL  CHISOM,Male,200,B.Sc. Computer Science
+AU202301089,MORAH JOSHUA Ifeanyichukwu,Male,200,B.Sc. Information Technology
+AU202301090,EDEH UCHECHUKWU JESSICA,Female,200,B.NSc. Nursing Science
+AU202301091,MOEMEKE EZINNE ANNE,Female,200,B.NSc. Nursing Science
+AU202301092,Daniel Ifeoma Lilian,Female,300,B.Sc. Information Technology
+AU202301093,Umahi Ifeanyichukwu Justin,Male,200,B.Sc. Information Technology
+AU202301095,Okorhi Atare Precious,Female,200,B.A. English
+AU202301097,James Priscilla Amah,Female,200,B.Sc. Accounting
+AU202301098,ADESANYA CHRISTINE INIOLUWA,Female,200,B.A. English
+AU202301099,TSEAGH TERZUNGWE SYLVESTER,Male,200,B.Sc. Information Technology
+AU202301100,Adeniyi Qudus Timileyin,Male,200,B.Sc. Cyber Security
+AU202301101,Omu Thelma Chukwunonyelim,Female,200,B.Sc. Software Engineering
+AU202301102,Bassey Sylvia Uduakobong,Female,200,B.Sc. Software Engineering
+AU202301103,Gomez Adedotun Richard,Male,200,B.Sc. Microbiology
+AU202301104,Opara Victoria onyinyechi,Female,200,B.Sc. Microbiology
+AU202301105,Keshiro Omolola Lucia,Female,200,B.Sc. Microbiology
+AU202301106,AJOGBOR Emmanuel Osemudiamen,Male,200,B.Sc. Information Technology
+AU202301107,Okeze Daniella  Onyebuchi,Female,200,B.Sc. Microbiology
+AU202301108,Thomas Oluwafayokemi  Esther,Female,200,B.NSc. Nursing Science
+AU202301109,Emmanuel Favour Obongodot,Female,200,B.NSc. Nursing Science
+AU202301110,Godwin Samson Chukwuebuka,Male,200,B.Sc. Information Technology
+AU202301111,Ikwueme Emelie Michael,Male,200,B.Sc. Mass Communication
+AU202301112,Ananomo Peace  Atseghuegbe,Female,200,B.Sc. Mass Communication
+AU202301113,Nnadi Chinaza Francisca,Female,200,B.Sc. Business Administration
+AU202301114,Okeke Angela Chidimma,Female,200,B.Sc. Computer Science
+AU202301115,Surakat Ganiyat Oluwabusola,Female,200,B.Sc. Mass Communication
+AU202301116,Akpan Juliet Ufon,Female,200,B.Sc. Business Administration
+AU202301117,Abugbe Eucharia  Agbo,Female,200,B.Eng. Computer Engineering
+AU202301118,ogbuneke ifeoma vivian,Female,200,B.Sc. Business Administration
+AU202301119,Nsima Nsikak Anslem,Male,200,B.Sc. Microbiology
+AU202301120,IJEOMAH EMELDA NNEOMA,Female,200,B.Sc. Accounting
+AU202301121,Adegbola Tobiloba Samson,Male,200,B.Sc. Computer Science
+AU202301122,Etofo Caroline Bukola,Female,200,B.Sc. Information Technology
+AU202301123,Chukwuma Marysylvia chinaza,Female,200,B.Sc. Mass Communication
+AU202301125,Nwangoro Chikamara  Jennifer,Female,200,B.Sc. Microbiology
+AU202401127,LAWAL OLUWADAMILARE PATRICK,Male,100,B.Sc. Economics
+AU202401128,Owoyomi  Temiloluwa  Mofiyinfoluwa,Female,100,B.Eng. Computer Engineering
+AU202401129,osinowo inioluwa Ayomikun,Male,100,B.Sc. Political Science
+AU202401130,Adekoya Oluwaseun Esther,Female,100,B.Sc. Political Science
+AU202401131,Okhiria  Victory  Oserhemen,Male,100,B.Sc. Political Science
+AU202401132,Oguomah Adaugo Daisy,Female,100,B.Sc. Political Science
+AU202401133,IKENMA CHUKWUDUBEM FAVOUR,Male,100,B.Sc. Political Science
+AU202401134,Otiono  Shawn Ayomide,Male,100,B.Sc. Computer Science
+AU202401135,Ofili Chukwunonso James,Male,100,B.Sc. Computer Science
+AU202401136,Ogazi Martin Chukwuemeka,Male,100,B.Sc. Computer Science
+AU202401137,Ogunu David Osime,Male,100,B.Sc. Computer Science
+AU202401138,Ogbologu Chukwueloka David,Male,100,B.Sc. Computer Science
+AU202401139,Ugwu Sixtus Chiemela,Male,100,B.Sc. Computer Science
+AU202401140,Adaba Stephen  Onimisi- Onoruoiza,Male,100,B.Sc. Computer Science
+AU202401141,Smith Chidera Austin,Male,100,B.Sc. Computer Science
+AU202401142,Adeyera Augustine-Mary Temiloluwa,Male,100,B.Sc. Computer Science
+AU202401143,Ifemeje Chimamanda Sharon,Female,100,B.Sc. Computer Science
+AU202401144,Idu  Williams-Brian Olisehmeke,Male,100,B.Sc. Computer Science
+AU202401145,Ejikonye Pearl  Onyekachi,Female,100,B.Sc. Computer Science
+AU202401146,MORGAN ELIJAH OLUWANIFEMI,Male,100,B.Sc. Information Technology
+AU202401147,OLUONYE  UZOMA PASCHAL,Male,100,B.Sc. Information Technology
+AU202401148,AJAH ARINZECHUKWU GODSWILL,Male,100,B.Sc. Information Technology
+AU202401149,Ugamah  Uche Mecheal,Male,100,B.Sc. Information Technology
+AU202401150,Okofu Raphael Chukwudi,Male,100,B.Sc. Information Technology
+AU202401151,Njokede Grant Ekwuoma,Female,100,B.Sc. Cyber Security
+AU202401152,Olugunna Kehinde Emmanuel,Male,100,B.Sc. Cyber Security
+AU202401153,Ismail  Al-amin Oladipupo,Male,100,B.Sc. Cyber Security
+AU202401154,Agbosemudu Henry Odion,Male,100,B.Sc. Cyber Security
+AU202401155,Momoh Desmond Egheosa,Male,100,B.Sc. Cyber Security
+AU202401156,Asuquo Augustine  Edidiong,Male,100,B.Sc. Cyber Security
+AU202401157,Nwachukwu Chinemelum  Benedict,Male,100,B.Sc. Cyber Security
+AU202401158,Balogun  Elizabeth  Aliyah,Female,100,B.Sc. Software Engineering
+AU202401159,Lawrence  Michael  Chiedozie,Male,100,B.Sc. Software Engineering
+AU202401160,Ugo-Ogoke  Chukwusimdi Ijezie,Female,100,B.Sc. Software Engineering
+AU202401161,Ike  David  Nmesomachukwu,Male,100,B.Sc. Software Engineering
+AU202401162,Agu Collins Chidubuem,Male,100,B.Sc. Software Engineering
+AU202401163,Nnam Chiagoziem Norbert,Male,100,B.Sc. Software Engineering
+AU202401164,Achunine  Ugochinyere Perpetua,Female,100,B.Sc. Software Engineering
+AU202401165,Alexis  Unyime Kosisochukwu,Female,100,B.Sc. Software Engineering
+AU202401166,Iredia  Joel Osahon,Male,100,B.Sc. Software Engineering
+AU202401167,Bojuwoye Edeosa Oluwanifemi,Male,100,B.Sc. Software Engineering
+AU202401168,IZUORAH  TOBENNA DONNIE,Male,100,B.Sc. Software Engineering
+AU202401169,Giwa boluwatife  pelumi,Female,100,B.Sc. Political Science
+AU202401170,OKANI EMMANUELLA CHIAMAKA,Female,100,B.Sc. Political Science
+AU202401171,Aniche  Amarachi  Judith,Female,100,B.Sc. Economics
+AU202401172,OSEGHALE JOSEPHINE OSEREMEN,Female,100,B.Sc. Economics
+AU202401173,Ejinkonye  Benedicta  Chiemeire,Female,100,B.Sc. Economics
+AU202401174,Nworah Onyinyechukwu  Emmanuella,Female,100,B.Sc. Economics
+AU202401175,Akwajie  Perpetual  Owubaeni,Female,100,B.Sc. Economics
+AU202401176,Aneke Sheba Adannaya,Male,100,B.Sc. Economics
+AU202401177,Ugochukwu Ugochi Juliet,Female,100,B.Sc. Economics
+AU202401178,EMEBO  CHIAMAKA  Blessing,Female,100,B.Sc. Economics
+AU202401179,AGWARAONYE CHINENYE NAOMI,Female,100,B.Sc. Economics
+AU202401180,OKEKE EKENE FIDEL,Male,100,B.Sc. Economics
+AU202401181,IHEANACHOR PETRA IFUNANYA,Female,100,B.Sc. Economics
+AU202401182,Ukoetuk Uwemedimo Emem,Male,100,B.Sc. Economics
+AU202401183,Idu Sean-Brian Chukwuebuke,Male,100,B.Sc. Economics
+AU202401184,Ugochukwu Nwabugo judith,Female,100,B.Sc. Biochemistry
+AU202401185,Akinliyi  Kikidaope  Abigail,Female,200,B.Sc. Microbiology
+AU202401186,Tobi Anthony  Boluwatife,Male,100,B.Sc. Biochemistry
+AU202401187,Uwagba Raphael Ovie,Male,100,B.Eng. Computer Engineering
+AU202401188,Adimoha  Nmachimerem  Mary-Freda,Female,100,B.Eng. Computer Engineering
+AU202401189,Adekunle  Adeyinka   Andre,Male,100,B.Eng. Computer Engineering
+AU202401190,Inegbedion Erhonmosele Emmanuel-Enehizena,Male,100,B.Eng. Computer Engineering
+AU202401191,Azuike Gabriel  Chukwujike,Male,100,B.Eng. Computer Engineering
+AU202401192,Orizu Kelechi  Diego,Male,100,B.Eng. Computer Engineering
+AU202401193,Ndinwa Emmanuela Chukwumuanya,Female,100,B.Sc. Microbiology
+AU202401194,UDOH CHARIS  imaobong,Female,100,B.Sc. Biotechnology
+AU202401195,IBEH NMESOMA PEARL,Female,100,B.Sc. Biotechnology
+AU202401196,Chukwu  Nmesoma  Precious,Female,100,B.Sc. Microbiology
+AU202401197,OLUFOWOBI OMOWUNMI RUKAYAT,Female,100,B.Sc. Microbiology
+AU202401198,RAHEEM  JUMAI  ELIZABETH,Female,100,B.Sc. Biotechnology
+AU202401199,Uzoetoh Chisom Prisca,Female,100,B.Sc. Microbiology
+AU202401200,Francis  Ijeoma  Francisca,Female,100,B.Sc. Microbiology
+AU202401201,Anugboba  Richmary  Ibhade,Female,100,B.Sc. Microbiology
+AU202401202,Kelikume Ruth Obuego,Female,100,B.Sc. Microbiology
+AU202401203,JOHN ESTHER ETUKUDOH  SHIKIN,Female,100,B.Sc. Microbiology
+AU202401204,Onyeanusi Somtochukwu Obieze,Male,100,B.Sc. Microbiology
+AU202401205,Onwuzulike Mary  Chioma,Female,100,B.Sc. Microbiology
+AU202401206,Okoronkwo  Christabel  Destiny,Female,100,B.Eng. Computer Engineering
+AU202401207,Mkpuluma Felix Daluchukwu,Male,100,B.Sc. Economics
+AU202401208,Okafor  Chukwunonso  Simon peter,Male,100,B.Sc. Economics
+AU202401209,Abonyi  Blessing Anayo,Female,100,B.Sc. Microbiology
+AU202401210,Azeez  Haliya  Okiki,Female,100,B.Sc. Microbiology
+AU202401211,Ndiwe Sheridan Mmesoma,Female,100,B.Sc. Computer Science
+AU202401212,Odimegwu Kenechukwu Gerald,Male,100,B.Sc. Computer Science
+AU202401213,Ejinkonye Emmanuel Chukwuebuka,Male,100,B.Sc. Computer Science
+AU202401214,Uwajeh Valerie Ezinne,Female,100,B.Sc. Computer Science
+AU202401215,Nevoh Catherine  Amarachi,Female,100,B.Sc. Computer Science
+AU202401216,IGBOANUGO CHUKWUMA DAVID,Male,100,B.Sc. Computer Science
+AU202401217,Nwadike ChukwuEbuka Joshua,Male,100,B.Sc. Computer Science
+AU202401218,Ikuren Tersoo Jayden,Male,100,B.Sc. Computer Science
+AU202401219,Okonofua Calix Calix,Male,100,B.Sc. Computer Science
+AU202401220,Musari Mofifoluwa Joel Oluwadaara,Male,100,B.Sc. Computer Science
+AU202401221,Aluya Aghogho Charles,Male,100,B.Sc. Computer Science
+AU202401222,Okodugha Emmanuel Lucky,Male,100,B.Sc. Computer Science
+AU202401223,Innocent-Amuchie Chibueze Emmanuel,Male,100,B.Sc. Computer Science
+AU202401224,ORIGBO CALEB OMOJEVA,Male,100,B.Sc. Computer Science
+AU202401225,Oseghale  Damian osehimen,Male,100,B.Sc. Computer Science
+AU202401226,Adeniji Louisa  Temitope,Female,100,B.Sc. Computer Science
+AU202401227,Uche Chinedu Michael,Male,100,B.Sc. Cyber Security
+AU202401228,OLASELE OPEMIPOSI JEREMIAH,Male,100,B.Sc. Cyber Security
+AU202401229,Oko Clement  Okpaheayota,Male,100,B.Sc. Cyber Security
+AU202401230,akpiri jason ayorise,Male,100,B.Sc. Information Technology
+AU202401231,Ebelechukwu  Chukwuebuka  Harel,Male,100,B.Sc. Information Technology
+AU202401232,EMMANUEL  GOD IS GOOD   IKWEN,Male,100,B.Sc. Information Technology
+AU202401233,HALIM  Jesse Chukwubuikem,Male,100,B.Sc. Software Engineering
+AU202401234,Dick Precious Favour,Female,100,B.Sc. Software Engineering
+AU202401235,UDOM CHARIS RICHARD,Male,100,B.Sc. Software Engineering
+AU202401236,Tajudeen oniwonlu Isiaq  Adeyemi,Male,100,B.Sc. Software Engineering
+AU202401237,Odibo Chike Chibuisi,Male,100,B.Sc. Software Engineering
+AU202401238,IGWOBA OSILAMA EMMANUEL,Male,100,B.Sc. Software Engineering
+AU202401239,Ikuren Terna  Jordan,Male,100,B.Sc. Software Engineering
+AU202401240,ORIGBO JOSHUA ODION,Male,100,B.Sc. Software Engineering
+AU202401241,Oduah John-Joe Chidiebere,Male,100,B.Sc. Software Engineering
+AU202401242,Iwaegbe esley Ehinomen,Male,100,B.Sc. Software Engineering
+AU202401243,Okamgba Oluchukwu Theresa,Female,100,B.Sc. Software Engineering
+AU202401244,Alo Modurodoluwa  Daniel,Male,100,B.Sc. Software Engineering
+AU202401245,Okafor-John Emmanuella Chukwudumebi,Female,100,B.Sc. Political Science
+AU202401246,Arabomen Eromosele  Benedict,Male,100,B.Sc. Political Science
+AU202401247,Ugwumadu  Ezinneamaka Stellamaris,Female,100,B.Sc. Political Science
+AU202401248,Uganden Emmanuella  Msurshima,Female,100,B.Sc. Political Science
+AU202401249,Ofili Chukwuadinula Philip,Male,100,B.A. Philosophy
+AU202401250,Nnah kachisicho stephen,Male,100,B.A. Philosophy
+AU202401251,Alagbaoso  Divine Ebube,Male,100,B.A. Philosophy
+AU202401252,Madueke Chidiogo Stephanie,Female,100,B.Sc. Economics
+AU202401253,Onwordi  Molly Chizea,Female,100,B.Sc. Biotechnology
+AU202401254,OKENU KOSISOCHUKWU GABRIELLA GABRIELLA,Female,100,B.Sc. Microbiology
+AU202401255,APANTA ALEXIS IJEOMA,Female,100,B.Sc. Biochemistry
+AU202401256,Omosokpea Peculiar Joyce,Female,100,B.Sc. Political Science
+AU202401257,Okoye Chimaobi  Christopher,Male,100,B.Sc. Political Science
+AU202401258,Emoghene  Emmanuel Ovie,Male,200,B.Sc. Political Science
+AU202401259,Nnanna Benedicta Adaugo,Female,100,B.Sc. Biochemistry
+AU202401260,Oyawale Oreoluwa Precious,Female,100,B.Sc. Biochemistry
+AU202401261,NWOKOLO NICOLE AWELE,Female,100,B.Sc. Biochemistry
+AU202401262,EWAH FAVOUR EGHOGHO,Female,100,B.Sc. Biochemistry
+AU202401263,JOSEPH ERIMIDE  ANGEL,Female,100,B.Sc. Biochemistry
+AU202401264,Onunkwo  Chinenye  Nancy,Female,100,B.Sc. Chemistry
+AU202401265,Ewonode Zoe Ogheneriziezi,Male,100,B.Sc. Chemistry
+AU202401266,Lawson Minabo Joshua Monima,Male,100,B.Sc. Chemistry
+AU202401267,Bello Hassana  Isabel,Female,100,B.Sc. Political Science
+AU202401268,Adekunle EniOluwanimi Oluwaseyi,Male,100,B.Sc. Computer Science
+AU202401269,BINUYO OLUWAFERANMI SOLOMON,Male,100,B.Sc. Cyber Security
+AU202401270,Agomoh Daniel Okechukwu,Male,100,B.Sc. Information Technology
+AU202401271,Ogunkola  Olaoluwa  Victoria,Female,100,B.Sc. Software Engineering
+AU202401272,Fasasi Eniola Imann,Male,100,B.Sc. Economics
+AU202401273,Okoronkwo Chioma  precious,Female,100,B.Sc. Fisheries & Aquaculture
+AU202401274,Asika Awele Valeria,Female,100,B.Sc. Mass Communication
+AU202401275,Okoduwa Lisa Egheose,Female,100,B.Sc. Computer Science
+AU202401276,Chukwuyem  Emmanuel  Nkemakolam,Male,100,B.Sc. Computer Science
+AU202401277,Emina  Ebhojor  Eusebius,Male,100,B.Sc. Mass Communication
+AU202401278,ONUAJA Vanessa  Somtochukwu,Female,100,B.Sc. Mass Communication
+AU202401279,Aniche  Chiamaka  Valentina,Female,100,B.Sc. Mass Communication
+AU202401280,Nwachukwu Chinenye Freda,Female,100,B.Sc. Mass Communication
+AU202401281,Augustine  Miracle  Chibuzor,Female,100,B.Sc. Mass Communication
+AU202401282,Igwe Ezinne Cecilia,Female,100,B.Sc. Mass Communication
+AU202401283,Sylvester Kaosisochi  Francess,Female,100,B.Sc. Mass Communication
+AU202401284,Ezeobele Gabriella  Chigozie,Female,100,B.Sc. Mass Communication
+AU202401285,Igomu Emmanuella Enekole,Female,100,B.Sc. Mass Communication
+AU202401286,Jesutomi David Oluwatemilorun,Male,200,B.Sc. Cyber Security
+AU202401287,Onyemaobi Ebuka Babatunde,Male,200,B.Sc. Cyber Security
+AU202401288,EZEGBUDO FRANKLIN  CHIDUBEM,Male,100,B.Sc. Business Administration
+AU202401289,Onu Princess  Ogechi,Female,100,B.Sc. Business Administration
+AU202401290,ELETU SOFIAT TEMITOPE,Female,100,B.Sc. Business Administration
+AU202401291,NJOKEDE GAIN CHUKWUDUMEBI,Female,100,B.Sc. Business Administration
+AU202401292,PREST ELMA TORITSEMOTSE,Female,100,B.Sc. Business Administration
+AU202401293,Unachukwu Matthew Chinazo,Male,100,B.Sc. Business Administration
+AU202401294,Oguike Chidinma  Nester,Female,100,B.Sc. Business Administration
+AU202401295,Anite Luke Marley,Male,100,B.Sc. Business Administration
+AU202401296,ANASIUDU  CHISOM AUGUSTINA,Female,100,B.Sc. Business Administration
+AU202401297,Okosa Chinaza Caroline,Female,100,B.Sc. Business Administration
+AU202401298,Maduagwu  Shantel Chikamso,Female,100,B.Sc. Business Administration
+AU202401299,UDEH NANCY IFUNANYA,Female,100,B.A. English
+AU202401300,Chukwu Chimamanda Gold,Female,100,B.A. English
+AU202401301,Maduagwu Chukwudumebi  Gabriella,Female,100,B.A. English
+AU202401302,Obadiah Favour Ayomikun,Female,100,B.A. English
+AU202401303,Okoye Benita Ogonna,Female,100,B.A. English
+AU202401304,Dada Oluwanifemi Victoria,Female,100,B.Sc. Biotechnology
+AU202401305,ACHEBE SYLVIA CHIAGOZIEM,Female,100,B.Sc. Business Administration
+AU202401306,Simon Abah Stephen,Male,100,B.Sc. Business Administration
+AU202401307,Nwandu John Ekenem,Male,100,B.Sc. Business Administration
+AU202401308,Okafor  Sochi Theresa,Female,100,B.Sc. Biochemistry
+AU202401309,Obiako Joy Chigozirim,Female,100,B.Sc. Accounting
+AU202401310,Akinade  Boluwatife  Olasukanmi,Male,100,B.Sc. Accounting
+AU202401311,Ikiebey Osilama Osikhemekhai,Male,100,B.Sc. Accounting
+AU202401312,Ndubuisi Chukwunonso Mac-Donald,Male,100,B.Sc. Accounting
+AU202401313,Ude Kamsiyochukwu Henry,Male,100,B.Sc. Accounting
+AU202401314,Ediae Matthew Akugbe,Male,100,B.Sc. Accounting
+AU202401315,UGWUEZUONU JESSE  CHIGOZIE,Male,100,B.Sc. Accounting
+AU202401316,NWAEZE CHIAMAKA MARIA FAUSTINA,Female,100,B.Sc. Accounting
+AU202401317,Balogun Iyinoluwa Temitope,Male,100,B.Sc. Accounting
+AU202401318,Obaze Benedict CHUKWUEKWU,Male,100,B.Sc. Accounting
+AU202401319,YOOSUF  MUHAMMAD  AJIBOLA,Male,100,B.Sc. Accounting
+AU202401320,Raymond Priscilla Omoyemey,Female,100,B.Sc. Accounting
+AU202401321,Cajetan Ifechukwu Pearl,Female,100,B.Sc. Accounting
+AU202401322,ANYIGBO OSCAR  CHIZITELU,Male,200,B.Sc. Computer Science
+AU202401323,Ohanugo Chukwuebuka  Michael,Male,100,B.Sc. Business Administration
+AU202401324,oluwatuyi grace oluwasemipe,Female,100,B.Sc. Business Administration
+AU202401325,OJIABO Chidubem Augustine,Male,200,B.Sc. Computer Science
+AU202401326,Ibeh Kamsy Valerius,Male,200,B.Sc. Software Engineering
+AU202401327,Onyeahialam Chimdiya Daniella,Female,200,B.Sc. Software Engineering
+AU202401328,Ayenuro Adeboye Bonia,Male,200,B.Sc. Software Engineering
+AU202401329,Okwuofu Onyekachukwu Jude,Male,200,B.Sc. Software Engineering
+AU202401330,Ayalogu  Eugene  Chukwudi,Male,200,B.Sc. Software Engineering
+AU202401331,Obaze Mitchel chukwuyem,Male,200,B.Sc. Software Engineering
+AU202401332,Etuk Israel Uduak,Male,200,B.Sc. Software Engineering
+AU202401333,Emuveyan Favour oghenerukevwe,Female,100,B.Sc. Mass Communication
+AU202401334,AJAERO KOSISOCHUKWU TEHILAH,Female,100,B.Sc. Mass Communication
+AU202401335,AMOLO VICTORIA KIKACHUKWU,Female,100,B.Sc. Mass Communication
+AU202401336,Olaleye Favour Idowu,Female,100,B.Sc. Mass Communication
+AU202401337,Ojo Daniel  Temitope,Male,100,B.Eng. Computer Engineering
+AU202401338,CHINEDU-EZE ESOMCHUKWU Theodore,Male,100,B.Sc. Computer Science
+AU202401339,Igbinoba Nosa Eva,Female,200,B.Sc. Software Engineering
+AU202401340,Okpala Onyeka Felicita,Female,100,B.NSc. Nursing Science
+AU202401341,Anoruo Daniel Chidalu,Male,100,B.NSc. Nursing Science
+AU202401342,Aziegbe  Precious  Osemudiamen,Female,100,B.NSc. Nursing Science
+AU202401343,Okenwa Thelma Adaugo,Female,100,B.NSc. Nursing Science
+AU202401344,Joseph Gold Imoabasi,Female,100,B.NSc. Nursing Science
+AU202401345,halim shammah somtochukwu,Female,100,B.NSc. Nursing Science
+AU202401346,LASORE NANCY ABISOLA,Female,100,B.NSc. Nursing Science
+AU202401347,Michael Okoduwa KerenHappuch Omoye,Female,100,B.NSc. Nursing Science
+AU202401348,Ezele  Gift Nma,Female,100,B.NSc. Nursing Science
+AU202401349,Udegbe  Oseiwe  Judith,Female,100,B.NSc. Nursing Science
+AU202401350,Madu Mesoma Emmanuella,Female,100,B.NSc. Nursing Science
+AU202401351,Iwuji Uchechi  Maryanne,Female,100,B.NSc. Nursing Science
+AU202401352,Tijani  Anastasia  Ijeoma,Female,100,B.NSc. Nursing Science
+AU202401353,Imochukwu Vera  Onyekachi,Female,100,B.NSc. Nursing Science
+AU202401354,Okechukwu Munachiso Faith,Female,100,B.NSc. Nursing Science
+AU202401355,Ejefobiri  Adaeze  Nicole,Female,100,B.NSc. Nursing Science
+AU202401356,IBEKWE CHIAMAKA ANNASTECIA,Female,100,B.NSc. Nursing Science
+AU202401357,Shina-Orowale Ayomide Glory,Female,100,B.NSc. Nursing Science
+AU202401358,Ozoeloanyi  Chidera  Michelle,Female,100,B.NSc. Nursing Science
+AU202401359,Egejuru Victoria Chinenye,Female,100,B.NSc. Nursing Science
+AU202401360,Udenkwo Chizaramekpere Benita,Female,100,B.NSc. Nursing Science
+AU202401361,Obi Chidiogo Benedicta,Female,100,B.NSc. Nursing Science
+AU202401362,SEBASTINE-ESHEMOGIE  ALENOGHENA  ANNABELLE,Female,100,B.NSc. Nursing Science
+AU202401363,Atewogboye  Funmilayo  Nneoma,Female,100,B.NSc. Nursing Science
+AU202401364,Eze Chidera Christabel,Female,100,B.NSc. Nursing Science
+AU202401365,Onwuatuelo Oluchi Blessing,Female,100,B.NSc. Nursing Science
+AU202401366,CHI-UKPAI  AFARACHI  NEPHERTITTI,Female,100,B.NSc. Nursing Science
+AU202401367,Cosmos Rosabelle Amarachi,Female,100,B.NSc. Nursing Science
+AU202401368,Ijeomah Laura Chineletam,Female,100,B.NSc. Nursing Science
+AU202401369,IGBOKWE CATHERINE AMARACHI,Female,100,B.NSc. Nursing Science
+AU202401370,UFUOMA OGHENEMARO MODESTA,Female,100,B.NSc. Nursing Science
+AU202401371,Skinn Christabel Omasan,Female,100,B.NSc. Nursing Science
+AU202401372,Tunim-eke Fanny Ifelunwa,Female,100,B.NSc. Nursing Science
+AU202401373,James-Adesemowo Gabriella Emioluwa,Female,100,B.NSc. Nursing Science
+AU202401374,Yekini Hadassah Temidayo,Female,100,B.NSc. Nursing Science
+AU202401375,Okwu Owen Chukwudumebi,Male,200,B.NSc. Nursing Science
+AU202401376,Elueme Elysia CHUKWUNYEM,Female,200,B.NSc. Nursing Science
+AU202401377,Apata Great ibironke,Female,200,B.NSc. Nursing Science
+AU202401378,Igwebuike Mary Ugochukwu,Female,200,B.NSc. Nursing Science
+AU202401379,Raji Boluwatife haneepha,Female,200,B.NSc. Nursing Science
+AU202401380,Okeke Frances Kosisochukwu,Female,200,B.NSc. Nursing Science
+AU202401381,Egbedinni Iteoluwakishi Michael,Male,100,B.Sc. Cyber Security
+AU202401382,Adenowo  Christopher  Okuta,Male,100,B.Sc. Information Technology
+AU202401383,AGBO SUNNY  AMEH,Male,100,B.Sc. Software Engineering
+AU202401384,CHINEDU-EZE CHISOMAGA Theodora,Female,100,B.Sc. Mass Communication
+AU202401385,OGUNDIRAN  LYDIA Olamide,Female,200,B.Sc. Biochemistry
+AU202401386,Ajayi Ayotunde Anthony,Male,100,B.Sc. Computer Science
+AU202401387,Goe Michelle Destiny,Female,200,B.Sc. Mass Communication
+AU202401388,Nnalue  Richard  Ifenna,Male,100,B.Sc. Business Administration
+AU202401389,Frank-Aririguzo  Maximus Oluebube,Male,100,B.Sc. Computer Science
+AU202401390,Ehiane Oseaga Chetachukwu,Male,100,B.Sc. Cyber Security
+AU202401391,Onebunne Odinaka Martin,Male,100,B.Sc. Business Administration
+AU202401392,IWEGBUNA  LOUISA  KACHUKWUSICHO,Female,200,B.Sc. Economics
+AU202401393,Uwakwe Chioma Emmanuella,Female,100,B.NSc. Nursing Science
+AU202401394,Ipinsokan Hope Ayomide,Male,200,B.NSc. Nursing Science
+AU202401395,Iniobong  Esther  Itoro,Female,100,B.Sc. Mass Communication
+AU202401396,Medidem Angel Nwasinachi,Female,200,B.Sc. Business Administration
+AU202401397,Ohia Desmond Uche,Male,200,B.Sc. Economics
+AU202401398,Awolaja Onowale  Oghenerunoh,Male,100,B.Sc. Computer Science
+AU202401399,Solomon Faith Ehi,Female,100,B.Sc. Political Science
+AU202401400,Igwenma Esther Chukwufumnaya,Female,100,B.Sc. Mass Communication
+AU202401401,Ogugua Nmesoma Treasure,Female,100,B.NSc. Nursing Science
+AU202401402,Ani David Chukwunonso,Male,100,B.Sc. Biochemistry
+AU202401403,Henry Okere Favour Amarachi,Female,100,B.Sc. Mass Communication
+AU202401404,DAWODU RAPHAEL BABATUNDE,Male,100,B.Sc. Political Science

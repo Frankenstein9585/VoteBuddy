@@ -14,7 +14,7 @@ section {
   margin-bottom: 25px;
 }
 
-.form-control {
+.form-control, .form-select {
   display: block;
   width: 100%;
   padding: 10px 14px;
